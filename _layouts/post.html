@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div itemscope itemtype="http://schema.org/BlogPosting">
+	<section class="contenidos prox-evento p-t-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="info-evento">
+						<h1 class=" f-60" itemprop="name headline">
+							{{ page.title }} <span class="blink">|</span>
+						</h1>
+						<hr class="divider-morado">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SECTION COMUNIDAD-->
+	<section class="comunidad">
+		<div class="container">
+			<div class="row text-center">
+				{% if page.author %}
+				<h2 class="f-30" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<span itemprop="name">{{ page.author }}</span>
+				</h2>
+				{% endif %}
+				<h4 class=" f-20">
+					<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+				</h4>
+				
+				<ul class="list-inline">
+					{% for tag in page.categories %}
+					<li><code>{{ tag }}</code></li>
+					{% endfor %}
+				</ul>
+
+				<ul class="m-b-20">
+					{% if page.author_fb %}
+					<li class="d-inline nuestras-redes p-l-10 p-r-10">
+						<a class="f-20 " href="https://www.facebook.com/{{ page.author_fb }}"><i class="fa fa-facebook"></i></a>
+					</li>
+					{% endif %}
+					{% if page.author_tw %}
+					<li class="d-inline nuestras-redes p-l-10 p-r-10">
+						<a class="f-20 " href="https://twitter.com/{{ page.author_tw }}"><i class="fa fa-twitter"></i></a>
+					</li>
+					{% endif %}
+					{% if page.author_gh %}
+					<li class="d-inline nuestras-redes p-l-10 p-r-10">
+						<a class="f-20 " href="https://github.com/{{ page.author_gh }}"><i class="fa fa-github"></i></a>
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- MANIFESTO -->
+	<section class="page p-t-50 p-b-50 text-justify">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2" itemprop="articleBody">
+					<!-- Texto -->
+					{{ content }}
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
