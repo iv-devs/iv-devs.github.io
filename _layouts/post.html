@@ -17,6 +17,17 @@ layout: default
 			</div>
 		</div>
 	</section>
+
+<div class="container">
+	<div class="row">
+	    <div class="col-md-12 img_post" style="height: 25vh;">
+	      {% if page.image %}
+	        <img src='{{ site.baseurl }}/content/images/{{ page.image }}'>
+	      {% endif %}
+	    </div>
+	</div>
+</div>
+
 	<!-- SECTION COMUNIDAD-->
 	<section class="comunidad">
 		<div class="container">
@@ -67,4 +78,3 @@ layout: default
 			</div>
 		</div>
 	</section>
-</div>

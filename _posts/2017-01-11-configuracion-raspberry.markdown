@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Configuración de Raspberry Pi 3"
-image: default.jpg
+image: /post/default.jpg
 date:   2017-01-11 00:00:00 -0300
 categories: raspberry configuration tutorial
 author: Arie

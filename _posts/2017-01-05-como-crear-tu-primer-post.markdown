@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aprende a crear tu primer post"
-image: default.jpg
+image: /post/default.jpg
 date:   2017-01-05 05:30:24 -0300
 categories: crear primer post tutorial
 author: Hugo Páez Jiménez

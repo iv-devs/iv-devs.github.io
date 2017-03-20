@@ -31,7 +31,7 @@ permalink: /blog/
           {% if post.image %}
             <a href="{{ post.url | prepend: site.baseurl }}" class="inner">
               <div class="img_post">
-                <img class="" src="{{ site.baseurl }}/content/images/post/{{ post.image }}">
+                <img class="" src="{{ site.baseurl }}/content/images{{ post.image }}">
                 <div name="gradiant" class="gradiant">
                   <div class="txt f-30">
                     <span class="f-15">{{ post.date | date: "%b %-d, %Y" }}</span><br>
