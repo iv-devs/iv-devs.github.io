@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quincy Larson habla con la comunidad"
-image: /post/default.jpg
+image: /post/2017-03-26-entrevista-quincy-larson.png
 date:   2017-03-26 06:30:24 -0300
 categories: Entrevistas informales
 author: Rodrigo Poblete
