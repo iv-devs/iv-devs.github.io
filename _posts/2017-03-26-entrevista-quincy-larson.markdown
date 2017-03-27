@@ -19,7 +19,7 @@ Contextualizemos.... Si ~~por alguna extraña razón aún~~ No conocen a **Quinc
 ![Quincy Larson Profile](/assets/img/post/QuincyProfile.png)
 
 ### Quincy Larson
-Es el fundador y/o creador de la comunidad [FreeCodeCamp](www.freecodecamp.com) de la cual hablaremos en breve. Quincy se ha desempeñado como Software Engineer en varias compañias de San Franciso. Tiene una fuerte presencia en el area de *E-learning* , y fue profesor en diversas escuelas tanto en **Estados Unidos** como en **China** _(Director de escuela, mentor y tutor)_. 
+Es el fundador y/o creador de la comunidad [FreeCodeCamp](https://www.freecodecamp.com) de la cual hablaremos en breve. Quincy se ha desempeñado como Software Engineer en varias compañias de San Franciso. Tiene una fuerte presencia en el area de *E-learning* , y fue profesor en diversas escuelas tanto en **Estados Unidos** como en **China** _(Director de escuela, mentor y tutor)_. 
 
 >Empecé Free Code Camp, una comunidad de código abierto de más de 500,000 personas que aprenden a codear y construir proyectos para organizaciones sin fines de lucro.
 Hice mi trabajo en China a través de una universidad americana, y pasé por un programa intensivo de mandarín. Durante mis cinco años en China, enseñé e interpreté para varias operaciones de entrenamiento de idiomas. También contraté a estudiantes de MBA. Trabajé como profesor y tutor durante la universidad y la escuela de posgrado. Me desempeñé como director de varias escuelas en los Estados Unidos y China, y aumenté su rigor académico al mismo tiempo que crecía su población estudiantil.
@@ -33,7 +33,7 @@ Es una organización sin fines de lucro que consta de una plataforma web de apre
 Los estudiantes de freeCodeCamp terminan todos los certificados del curriculum, y consiguen la oportunidad de trabajar con organizaciones sin fines de lucro. Ejemplos como [Kopernik](https://en.wikipedia.org/wiki/Kopernik_(organization)) con sede en Indonesia y **People Saving Animals**. La organización ha donado [US $ 1,400,000](https://www.freecodecamp.com/about/) de trabajo de desarrollo.
 
 ----
-<!---*Podríamos hablar en extenso de [freeCodeCamp](www.freecodecamp.com), de sus beneficios y de como puede ayudar a formarnos como desarrolladores competentes y con experiencia laboral comprobada. Pero se extendería mucho el post, y nos alejariamos del tema principal que es la entrevista en sí. Eso quizás de para un próximo post* -->
+<!---*Podríamos hablar en extenso de [freeCodeCamp](https://www.freecodecamp.com), de sus beneficios y de como puede ayudar a formarnos como desarrolladores competentes y con experiencia laboral comprobada. Pero se extendería mucho el post, y nos alejariamos del tema principal que es la entrevista en sí. Eso quizás de para un próximo post* -->
 
 
 Ahora que ya entramos en contexto, puedo tomar el tema principal del post. 
@@ -80,7 +80,7 @@ Más tarde, mi esposa se mudó del sur de California para unirse a mí. Nuestro 
 
 ![ImagenIkea](/assets/img/post/escritorioIkea.jpg)
 
-Cuando ya no estaba tan atrapado en la programación, convencí a otras personas a unirse a mí en la realización de un ambicioso proyecto de motor de recomendación de curso. No consiguí ninguna tracción, pero aprendí mucho durante el proceso y me enfocé en mi siguiente proyecto: [Free Code Camp](www.freecodecamp.com).
+Cuando ya no estaba tan atrapado en la programación, convencí a otras personas a unirse a mí en la realización de un ambicioso proyecto de motor de recomendación de curso. No consiguí ninguna tracción, pero aprendí mucho durante el proceso y me enfocé en mi siguiente proyecto: [Free Code Camp](https://www.freecodecamp.com).
 
 ![FreeCodeCAmp Logo](/assets/img/post/fccLogo.jpeg)
   <!--- /Si tienes curiosidad, puedes leer más sobre los orígenes de Free Code Camp aquí: https: //medium.freecodecamp.com / ... -->
@@ -138,7 +138,7 @@ Agradezco mucho a **Quincy** por su tiempo y disposición en responder nuestras 
 Lo pueden seguir en su cuenta de **Twitter** [@ossia](https://twitter.com/ossia?lang=es)
 su perfil de **Facebook** [Quincy Larson Facebook](https://www.facebook.com/michaelqlarson)
 cuenta _muy activa_ de **Medium** [Medium Quincy Larson](https://medium.com/@quincylarson)
-y por si les intereso, unansé a [freeCodeCamp](www.freecodecamp.com)
+y por si les intereso, unansé a [freeCodeCamp](https://www.freecodecamp.com)
 
 
 #### Happy Coding :D!
