@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cloud Services"
-image: /post/2017-03-22-cloud-services.jpg
+image: /post/2017-04-12-cloud-services.jpg
 categories: aws web services cloud computing
 author: Cristofer
 author_tw: cristofer_dev
