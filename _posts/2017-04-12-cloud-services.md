@@ -35,10 +35,12 @@ No existen solucienes unicas y perfectas, a cada problema una solución, y por e
 
 si queremos categorizar o listar los servicios actualmente disponibles en el mercado, podriamos hacerlo de la siguiente forma (no es la única)
 
-1.- Hosting Compartido
-2.- VPS
-3.- Servidor Propio
-4.- Servicios On Cloud
+1. Hosting Compartido
+2. VPS
+3. Servidor Propio
+4. Servicios On Cloud
+
+Es una de las muchas formas en que podemos categorizar los servicios.
 
  
 ## ¿ Cúal me sirve ?
