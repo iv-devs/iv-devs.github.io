@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Cloud Services"
-image: /post/2017-04-12-cloud-services.jpg
+title:  "Amazon Web Services I"
+image: /post/2017-04-12-amazon-web-services.jpg
 categories: aws web services cloud computing
 author: Cristofer
 author_tw: cristofer_dev
@@ -10,7 +10,7 @@ author_gh: cristofer-dev
 published: true
 ---
 
-Da tus primeros pasos para poner tus apps en la nube.
+ Conociendo los servicios cloud, lo que necesitas saber antes de dar tus primeros pasos en aws.
 
 
 ## Lo Primero
