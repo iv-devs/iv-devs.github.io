@@ -31,7 +31,7 @@ disqus-shortname: iv-devs
 gems:
  - jekyll-paginate
 
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 
