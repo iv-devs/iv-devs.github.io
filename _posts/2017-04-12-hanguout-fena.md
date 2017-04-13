@@ -17,9 +17,9 @@ Ayer **Martes 11 de Abril**, tuvimos la increible experiencia de hablar con algu
 
 ![Feña Profile](/assets/img/post/ferna_profile.png)
 
-**Fernando Larrañaga**, **Ingeniero de Software de Groupon San Francisco** nos dio un espectacular *Hangout* (**Ask Me Anything**) en donde miembros de nuestra comunidad, y personas que participaron de la transmición abierta tuvieron la oportunidad de _preguntarle de todo_, a un **profesional de excelencia**, en la meca de la tecnologia global. Si te perdiste la transmición, puedes revivirla acá: [Video del Hangout](https://www.youtube.com/watch?v=Z6JCh3kryBs)
+**Fernando Larrañaga**, **Ingeniero de Software de Groupon San Francisco** nos dio un espectacular *Hangout* (**Ask Me Anything**) en donde miembros de nuestra comunidad, y personas que participaron de la transmición abierta tuvieron la oportunidad de _preguntarle de todo_, a un **profesional de excelencia**, en la meca de la tecnologia global. Si te perdiste la transmición, puedes revivirla acá: <!--([Video del Hangout]https://www.youtube.com/watch?v=Z6JCh3kryBs)-->
 
-![Imagen de la transmicion](/assets/img/post/video_hangout.png)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Z6JCh3kryBs" frameborder="0" allowfullscreen></iframe>
 
 Y para los que estuvieron en el hangout con Fernando, acá les dejamos los **links de interes que comentó en el video**:
 
