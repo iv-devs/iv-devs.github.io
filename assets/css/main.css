@@ -902,3 +902,9 @@ footer{
 	object-fit: cover;
 	width: 100%;
   	height: 100%;
+}
+div[itemprop="articleBody"] p > img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
