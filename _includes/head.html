@@ -8,7 +8,7 @@
   <meta name="keywords" content="{{ site.keywords }}" />
   <!-- Meta tags facebook -->
   
-  <meta property="og:image" content="{% if page.image %}{{ site.url }}/content/images/{{ page.image }}{% else %} {{ site.url }}/assets/img/logo_h.png {% endif %}"/>
+  <meta property="og:image" content="{% if page.image %}{{ site.url }}/content/images{{ page.image }}{% else %} {{ site.url }}/assets/img/logo_h.png {% endif %}"/>
   <meta property="og:title" content="IV Devs"/>
   <meta property="og:url" content="{{ site.url }}"/>
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
@@ -19,7 +19,7 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   <meta name="twitter:title" content="{{ site.twitter_username }}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image:src" content="{% if page.image %}{{ site.url }}/content/images/{{ page.image }}{% else %} {{ site.url }}/assets/img/logo_h.png {% endif %}">
+  <meta name="twitter:image:src" content="{% if page.image %}{{ site.url }}/content/images{{ page.image }}{% else %} {{ site.url }}/assets/img/logo_h.png {% endif %}">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
