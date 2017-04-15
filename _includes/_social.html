@@ -1,0 +1,36 @@
+<section class="page p-t-50 p-b-50 text-justify">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+			Comparte este articulo en 
+				<a 
+					href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=ivdevs&related=ivdevs"
+					rel="nofollow" 
+					target="_blank" 
+					title="Comparte en Twitter">
+					<i class="fa fa-twitter"></i> Twitter
+				</a>  •
+				<a
+					href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
+					rel="nofollow"
+					target="_blank"
+					title="Comparte en Facebook">
+					<i class="fa fa-facebook"></i> Facebook
+				</a>
+				<hr>
+				<div id="disqus_thread"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	(function() {
+		var d = document, s = d.createElement('script');
+		s.src = 'https://{{site.disqus-shortname}}.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//{{site.disqus-shortname}}.disqus.com/count.js" async></script>

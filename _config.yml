@@ -15,8 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: IVDevs - Comunidad de Programadores
 email: contacto@ivdevs.com
-description: > # this means to ignore newlines until "baseurl:"
-  Una comunidad de amigos apasionados por la tecnología e informática, que busca compartir conocimiento de forma libre y sin fines de lucro, con el fin de fortalecer a los miembros de la comunidad para generar un impacto tecnológico positivo en la región. 
+description: # this means to ignore newlines until "baseurl:"
+  Somos la Comunidad de Programadores de la IV Región de Chile, apasionados por la tecnología y la informática, buscamos compartir lo que sabemos de forma libre y sin fines de lucro, con el fin de fortalecer a los miembros de la comunidad para generar un impacto tecnológico positivo en nuestra región. 
+keywords: programadores, comunidad, la serena, coquimbo, ovalle, desarrollador, desarrolladores, programador, iv región, cuarta región
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ivdevs.com" # the base hostname & protocol for your site
 twitter_username: iv_devs
@@ -30,7 +31,7 @@ disqus-shortname: iv-devs
 gems:
  - jekyll-paginate
 
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 
