@@ -22,55 +22,38 @@ permalink: /blog/
 </section>
 
 <div class="post">
-  <div class="div container">
-    <div class="row">
-
-      
-        {% for post in site.posts %}
-        <div class="col-md-6">
-          {% if post.image %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="inner">
-              <div class="img_post">
-                <img class="" src="{{ site.baseurl }}/content/images{{ post.image }}">
-                <div name="gradiant" class="gradiant">
-                  <div class="txt f-30">
-                    <span class="f-15">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-                    {{ post.title | escape }}
-                    
-                  </div>
-
+    <div class="div container">
+        <div class="row">
+            {% for post in site.posts %}
+                <div class="col-md-6">
+                    {% if post.image %}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="inner">
+                            <div class="img_post">
+                                <img class="" src="{{ site.baseurl }}/content/images{{ post.image }}">
+                                <div name="gradiant" class="gradiant">
+                                    <div class="txt f-30">
+                                        <span class="f-15">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+                                        {{ post.title | escape }}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    {% endif %}
+                    {{ post.excerpt }}
                 </div>
-                             
-              </div>
-            </a>
-          {% endif %}
-         
-         
-            {{ post.excerpt }}
-         
+            {% endfor %}
         </div>
-        {% endfor %}
-      
-
     </div>
-  </div>
+    <!-- JS Que aplica degradado Random a cada img del blog -->
+    <script>
+        var colors = [' gradiant-cian', ' gradiant-azul', ' gradiant-morado'];
+        var divs = document.getElementsByName('gradiant');
 
-<!-- 
-JS Que aplica degradado Random a cada img del blog
- -->
-<script>
-  var colors = [' gradiant-cian', ' gradiant-azul', ' gradiant-morado'];
-  var divs = document.getElementsByName('gradiant');
-                  
-  console.log(divs[0]);
-
-  for (var i = 0; i < divs.length; i++) {
-    min = Math.ceil(0);
-    max = Math.floor(3);
-    var r = Math.floor(Math.random() * (max - min)) + min;
-    divs[i].className += colors[r];
-  }
-  
-</script>
-
+        for (var i = 0; i < divs.length; i++) {
+            min = Math.ceil(0);
+            max = Math.floor(3);
+            var r = Math.floor(Math.random() * (max - min)) + min;
+            divs[i].className += colors[r];
+        }
+    </script>
 </div>
