@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bootstrap ¿Qué es y como implementarlo?"
-image: /post/banner-bootstrap.png
+image: /post/2017-18-04-bootstrap-que-es-y-como-implementarlo.png
 date: 2017-04-18 16:30:00 -0300
 categories: bootstrap framework web
 author: Luis Alvarado
