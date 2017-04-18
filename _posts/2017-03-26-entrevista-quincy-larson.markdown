@@ -16,7 +16,7 @@ Entrevista informal a Quincy Larson creador de FreeCodeCamp para la comunidad.
 
 Contextualizemos.... Si ~~por alguna extraña razón aún~~ No conocen a **Quincy Larson** o **FreeCodeCamp** pongamonos al corriente:
 
-![Quincy Larson Profile](/assets/img/post/QuincyProfile.png)
+![Quincy Larson Profile](/assets/img/post/2017-03-26-entrevista-quincy-larson/QuincyProfile.png)
 
 ### Quincy Larson
 Es el fundador y/o creador de la comunidad [FreeCodeCamp](https://www.freecodecamp.com) de la cual hablaremos en breve. Quincy se ha desempeñado como Software Engineer en varias compañias de San Franciso. Tiene una fuerte presencia en el area de *E-learning* , y fue profesor en diversas escuelas tanto en **Estados Unidos** como en **China** _(Director de escuela, mentor y tutor)_. 
@@ -27,7 +27,7 @@ A lo largo del camino, aprendí a codear. Escribí scripts para automatizar los 
 
 ### FreeCodeCamp
 
-![FreeCodeCamp Photo](/assets/img/post/FC001.png)
+![FreeCodeCamp Photo](/assets/img/post/2017-03-26-entrevista-quincy-larson/FC001.png)
 
 Es una organización sin fines de lucro que consta de una plataforma web de aprendizaje interactivo, un foro comunitario en línea, salas de chat, frecuentes publicaciones en [Medium](https://medium.freecodecamp.com/) y organizaciones locales que tienen la intención de hacer que el **aprendizaje del desarrollo web sea accesible a cualquier persona**. 
 Los estudiantes de freeCodeCamp terminan todos los certificados del curriculum, y consiguen la oportunidad de trabajar con organizaciones sin fines de lucro. Ejemplos como [Kopernik](https://en.wikipedia.org/wiki/Kopernik_(organization)) con sede en Indonesia y **People Saving Animals**. La organización ha donado [US $ 1,400,000](https://www.freecodecamp.com/about/) de trabajo de desarrollo.
@@ -41,13 +41,13 @@ Me parece cool tener contacto con personas de las cuales podemos inspirarnos. Ve
 
 Fue así como decidí aventurarme en una _pseudo entrevista_, nada tan elabarado ni formal. Finalmente no soy reportero, sino informático. Me parece increible que alguien muy así pueda darnos un poco de su tiempo y responder algunas preguntas de un grupo de personas las cuales **nos mueve una pasión muy parecida**. Me contacté con **Quincy** vía twitter y en mi ~~prehistorica~~ _excelente_ redacción en ingles, le pregunté si tenía tiempo para responder unas preguntas:
 
-![Twitter MD Capture1](/assets/img/post/twitterCapture1.png)
+![Twitter MD Capture1](/assets/img/post/2017-03-26-entrevista-quincy-larson/twitterCapture1.png)
 
 Para mi sorpresa la respuesta no demoró mucho en llegar :) 
 
-![Twitter MD Capture 2](/assets/img/post/twitterCapture2.png)
+![Twitter MD Capture 2](/assets/img/post/2017-03-26-entrevista-quincy-larson/twitterCapture2.png)
 
-![Twitter MD Capture 3](/assets/img/post/twitterCapture3.png)
+![Twitter MD Capture 3](/assets/img/post/2017-03-26-entrevista-quincy-larson/twitterCapture3.png)
 
 Así que con Drive en una mano, y traductor en la otra salieron 11 preguntas las cuales pueden ser de mucha utlidad para nosotros:
 
@@ -55,7 +55,7 @@ Así que con Drive en una mano, y traductor en la otra salieron 11 preguntas las
 
 #### Mis estadísticas de 2014 - casi 10 horas todos los días en mi computadora portátil.
 
-![QuincyStadistic](/assets/img/post/statusQuincy.png)
+![QuincyStadistic](/assets/img/post/2017-03-26-entrevista-quincy-larson/statusQuincy.png)
 
 Como director de la escuela, me metí en la programación, escribiendo scripts de Excel y tareas automatizadas con herramientas como [AutoHotKey](https://www.autohotkey.com/). **Estos scripts** liberaron a los maestros y administradores de nuestra escuela de un increíble volumen de trabajo tedioso, permitiéndoles pasar más tiempo con los estudiantes.
 Después de ver lo que incluso una pequeña cantidad de habilidades podría lograr en un ambiente escolar, se volvío claro lo que tenía que hacer.
@@ -64,13 +64,13 @@ Al principio, pensé que mis habilidades de programación mediocres bastarían. 
 
 **Así comenzó mi desvío en la ingeniería de software.**
 
-![Software Engineer Adventure](/assets/img/post/softwareEnginnerAdventure.jpeg)
+![Software Engineer Adventure](/assets/img/post/2017-03-26-entrevista-quincy-larson/softwareEnginnerAdventure.jpeg)
 
 Pasé meses sentado solo en bibliotecas y cafés, instalando ciegamente herramientas desde la línea de comandos, depurando los problemas del controlador Linux y golpeando mi cabeza con cosas tan triviales como paréntesis faltantes.
 Hice cada curso en línea imaginable, y comenzado incontables MOOCs. No creo que realmente construyera algo en Internet sin la guía de un tutorial hasta el quinto mes!
 Esto me dio la impresión de que la programación era una lucha [Sisyphean](http://www.dictionary.com/browse/sisyphean). Estaba convencido de que los ingenieros aparentemente "normales" que encontré eran en realidad sociópatas que habían experimentado - y luego reprimido - el trauma de aprender a codear. **Pero seguí programando. Seguí trabajando junto a otros programadores en meetups y hackathons.**
 
-![QuincyMeetup](/assets/img/post/meetupQuincy.png)
+![QuincyMeetup](/assets/img/post/2017-03-26-entrevista-quincy-larson/meetupQuincy.png)
 
 Después de siete meses, conseguí mi primer trabajo de ingeniería de software. Me sentía como un impostor sin condiciones todo el tiempo, pero como me dijo el CTO, *"Siempre quieres ser el peor músico de la banda"*.
 
@@ -78,11 +78,11 @@ En 2013, me trasladé a la meca del software - San Francisco. Me atreví con nad
 
 Más tarde, mi esposa se mudó del sur de California para unirse a mí. Nuestro apartamento tenía un armario que hacía mi oficina. Compré un escritorio de $10 en Ikea, un monitor de $100 de Craigslist, y procedí a pasar 10 horas al día en ese lugar.
 
-![ImagenIkea](/assets/img/post/escritorioIkea.jpg)
+![ImagenIkea](/assets/img/post/2017-03-26-entrevista-quincy-larson/escritorioIkea.jpg)
 
 Cuando ya no estaba tan atrapado en la programación, convencí a otras personas a unirse a mí en la realización de un ambicioso proyecto de motor de recomendación de curso. No consiguí ninguna tracción, pero aprendí mucho durante el proceso y me enfocé en mi siguiente proyecto: [Free Code Camp](https://www.freecodecamp.com).
 
-![FreeCodeCAmp Logo](/assets/img/post/fccLogo.jpeg)
+![FreeCodeCAmp Logo](/assets/img/post/2017-03-26-entrevista-quincy-larson/fccLogo.jpeg)
   <!--- /Si tienes curiosidad, puedes leer más sobre los orígenes de Free Code Camp aquí: https: //medium.freecodecamp.com / ... -->
 
 **En los últimos 4 años, he pasado de malo en la programación a algo menos malo. Y todo esto se lo debo a los miles de ingenieros que han sacado la programación de la torre de marfil. Ellos lo han hecho lo suficientemente accesible como para que algún maestro de unos 30 años pueda aprender a codear y comenzar a construir cosas.** 
@@ -117,7 +117,7 @@ Me gusta el libro [Original Pragmatic Programmers](https://www.amazon.com/Pragma
 
 Si estoy realmente en modo de crisis, escucho la misma lista de reproducción que he escuchado miles de veces: [Quincy Larson's Flow State Coding Playlist](https://8tracks.com/quincylarson/quincy-larson-s-flow-state-coding-playlist).
 
-![Playlist](/assets/img/post/playlist.png)
+![Playlist](/assets/img/post/2017-03-26-entrevista-quincy-larson/playlist.png)
 
 ### 9. Muchos de los miembros de nuestra comunidad aún no conocen FreeCodeCamp, que podrías decirles a ellos para que se unan a esta increíble iniciativa?
  

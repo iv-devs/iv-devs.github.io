@@ -41,11 +41,11 @@ Bootstrap fue desarrollado por Twitter, tiene como gran objetivo facilitar el di
 
 Para empezar a utilizar Bootstrap debes dirigirte a su [sitio oficial](http://getbootstrap.com/) y darle al botón de *"Download Bootstrap"*
 
-![download-bootstrap](/assets/img/post/download-bootstrap.png)
+![download-bootstrap](/assets/img/post/2017-18-04-bootstrap-que-es-y-como-implementarlo/download-bootstrap.png)
 
 Una vez que le das al botón de descarga te mostrará las diferentes opciones para utilizar bootstrap
 
-![opciones-descarga-bootstrap](/assets/img/post/opciones-descarga-bootstrap.jpg)
+![opciones-descarga-bootstrap](/assets/img/post/2017-18-04-bootstrap-que-es-y-como-implementarlo/opciones-descarga-bootstrap.jpg)
 
 Si optamos por la opción de *Download Bootstrap*, se descargará una carpeta la cual debemos descomprimir y agregarla a la carpeta de nuestro proyecto, veremos algo como esto:
 
