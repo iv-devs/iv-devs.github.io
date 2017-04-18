@@ -22,18 +22,12 @@ Bien ahora ya sabes lo que es un *framework* asi que continuemos con bootstrap.
 
 Bootstrap fue desarrollado por Twitter, tiene como gran objetivo facilitar el diseño web sirviendo de guía para emplear buenas prácticas y estándares. Algunas características son:
 
-* Permite crear de manera fácil sitios web que son adaptables o *responsives* para ajustarse a cualquier dispositivo y tamaños de pantalla.
-
-* Podemos conseguir un sitio web muy organizado visualmente.
-
-
-* Posee un sistema de grillas en la cuál maqueteamos el sitio mediante columnas que lo hace bastante fácil.
-
-* Se integra perfectamente con liberías de Javascript.
-
-* Posee una comunidad muy grande y activa que lo respalda.
-
-* Permite la utilización de *Sass* y *Less* para hacer aún más *pro* el estilo de tu web.
+1. Permite crear de manera fácil sitios web que son adaptables o *responsives* para ajustarse a cualquier dispositivo y tamaños de pantalla.
+2. Podemos conseguir un sitio web muy organizado visualmente.
+3. Posee un sistema de grillas en la cuál maqueteamos el sitio mediante columnas que lo hace bastante fácil.
+4. Se integra perfectamente con liberías de Javascript.
+5. Posee una comunidad muy grande y activa que lo respalda.
+6. Permite la utilización de *Sass* y *Less* para hacer aún más *pro* el estilo de tu web.
 
  Lo mejor de Bootstrap es que *It's free!* es de código abierto por lo cual podemos usarlo de manera gratuíta y sin limitaciones
 
