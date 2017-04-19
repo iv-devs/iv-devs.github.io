@@ -30,7 +30,7 @@ Además, tendremos que crear una rama llamada post/nombre-del-post
 
 ![Fotografía 4](http://image.prntscr.com/image/e9d835a22f2648b782f7e921ad1a10a2.png)  
 
-Como siguiente paso creamos un archivo en la carpeta _posts, con la siguiente nomenclatura, YYYY-MM-DD-nombre-del-post.markdown, en el caso de este post, sería así __`2017-01-05-como-crear-tu-primer-post.markdown`__.  
+Como siguiente paso creamos un archivo en la carpeta _posts, con la siguiente nomenclatura, YYYY-MM-DD-nombre-del-post.markdown, en el caso de este post, sería así __`2017-01-05-como-crear-tu-primer-post.md`__.  
 
 ![Fotografía 5](http://image.prntscr.com/image/b0395bbb601749b0b1b32381b97847be.png)  
 
@@ -40,6 +40,7 @@ Como quinto paso, por convención, el post debe llevar lo siguiente como cabecer
 ---
 layout: post
 title:  "Titulo del post"
+image: /post/default.jpg
 date:   YYYY-MM-DD HH:MM:SS -0300
 categories: jekyll update
 author: Author del post
@@ -50,6 +51,14 @@ author_gh: Github del autor //Opcional
 Luego de esto escribimos algunas líneas como descripción del post y para finalizar la descripción escribimos lo siguiente  
 <!--more-->
 ```
+
+Para la imagen de cabecera del post puede dejar la linea tal como esta y se asigna la imagen predeterminada `image: /post/default.jpg`.
+
+Si quieres personalizar la imagen de cabecera, el archivo debe ser almacenado en `/assets/img/post/2017-01-05-como-crear-tu-primer-post.jpg`.
+
+1. La imagen debe tener el mismo nombre del post
+2. La imagen antes de ser agregada debe ser procesada con [tinyjpg](https://tinyjpg.com/) para optimizar los tiempos de carga de tu post.
+
 
 Algo como la siguiente imagen.  
 
@@ -64,22 +73,9 @@ bundle exec jekyll serve
 ```
 
 Luego de ejecutar las instrucciones, podremos ingresar en el siguiente enlace <http://localhost:4000>  
+
 Ya teniendo todo esto listo, ahora solo queda ver algunos tips:  
-Como realizar un listado fácil, de estas dos formas:  
 
-```
- 1. Prueba 1
- 2. Prueba 2
- 3. Prueba 3
-```
-
-Otra forma es:  
-
-```
- * Prueba 1
- * Prueba 2
- * Prueba 3
-```
 
 # Cómo utilizar markdown
 
@@ -117,6 +113,21 @@ Segunda forma de hacer negrita y cursiva:
 
 ```
 ___Texto en negrita y cursiva___
+```
+Como realizar un listado fácil, de estas dos formas:  
+
+```
+ 1. Prueba 1
+ 2. Prueba 2
+ 3. Prueba 3
+```
+
+Otra forma es:  
+
+```
+ * Prueba 1
+ * Prueba 2
+ * Prueba 3
 ```
 
 Como realizar títulos para los post:  
@@ -203,39 +214,15 @@ Luego guardar estos cambios con:
 git commit -m "Mensaje del commit. Preferentemente utilizar esta nomenclatura: CREATE 2017-01-05-como-crear-tu-primer-post"
 ```
 
-También deberemos cambiarnos de rama con:  
-
-```
-git checkout master
-```
-
-Mezclaremos la rama post con master con la siguiente instrucción:  
-
-```
-git merge post/nombre-de-la-rama
-Ej.
-git merge post/how-to-create-a-post
-```
-
-Eliminamos la rama post  
-
-```
-git branch -d post/nombre-de-la-rama
-Ej.
-git branch -d post/how-to-create-a-post
-```
 
 Subimos nuestros a cambios al repositorio con:
 
 ```
-git push origin master
+git push origin post/nombre-del-post
 ```
 
-Al final debería aparecer algo como la siguiente imagen:  
-
-![Fotografía 7](http://image.prntscr.com/image/014f626a5de446faadf1d19ff3f03c4c.png)  
-
 Luego de haber realizado esto deberemos entrar en el respositorio de la página web de iv-devs que esta en su cuenta.  
+
 Cuando nos situemos en la página iremos a pull request (Estará remarcada en rectángulo rojo)  
 
 ![Fotografía 8](http://image.prntscr.com/image/097e09137645408a8b8088830796e66b.png)
@@ -244,7 +231,14 @@ Nos aparecerá una página como la de la fotografía y deberemos dar clic a crea
 
 ![Fotografía 9](http://image.prntscr.com/image/ef4a2762e3504ab4941adb719d0b368a.png)
 
-Luego de todo eso, nos aparecerá la siguiente página, y aquí deberemos ingresar un texto descriptivo de lo que realizamos o de que tratará nuesto post, cuando todo este listo daremos clic a Create pull request, y tan solo quedará a esperar a que acepten tu post!.  
+Luego de todo eso, nos aparecerá la siguiente página, y aquí deberemos:
+
+1. Seleccionar el `base fork:iv-devs/iv-devs.github.io`  y el `base:develop`
+2. Seleccionar el `head fork:tu_usuario/iv-devs.github.io`  y el `compare:post/nombre-del-post`
+2. ingresar un texto descriptivo de lo que realizamos o de que tratará nuesto post, cuando todo este listo daremos clic a `Create pull request`, y tan solo quedará a esperar a que acepten tu post!.  
+
+
+
 
 ![Fotografía 10](http://image.prntscr.com/image/491d5058105943c293129ea2cde4ae24.png)
 
