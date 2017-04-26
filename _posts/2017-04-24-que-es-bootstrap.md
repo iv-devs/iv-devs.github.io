@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¿Qué es Bootstrap?"
-image: /post/2017-18-04-bootstrap-que-es-y-como-implementarlo.png
+image: /post/2017-04-24-que-es-bootstrap.png
 date: 2017-04-18 16:30:00 -0300
 categories: bootstrap framework web tutorial
 author: Luis Alvarado
