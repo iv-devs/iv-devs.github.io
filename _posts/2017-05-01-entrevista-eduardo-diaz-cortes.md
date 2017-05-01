@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Eduardo Díaz habla con nosotros"
-image: /post/default.hpg
+title:  "Eduardo Díaz autor de \"La Naturaleza del Software\""
+image: /post/interviews.jpg
 date:   2017-05-01 15:00:24 -0300
 categories: Entrevistas informales
 author: Rodrigo Poblete
@@ -12,15 +12,10 @@ author_gh: rodpoblete
 Entrevista informal a Eduardo Díaz Cortés autor del blog "La Naturaleza del Software".
 <!--more-->
 
-# Eduardo Díaz Cortés habla en exclusiva con nuestra comunidad.
-
-&nbsp;
-
 Seguimos con esta ronda de *”Entrevistas informales”* a personas líderes de la industria. En esta ocasión, tenemos el agrado de contar con la presencia de un profesional de lujo. Primero, por el hecho de ser un fiel defensor del trabajo que se realiza en las comunidades, lo cual nos enorgullece mucho y segundo porque es de la casa **Made in Chile**.
 
-&nbsp;
 
-![Eduardo Diáz Amazon Profile](http://images.gr-assets.com/authors/1442953393p8/7375806.jpg "Eduardo Díaz Cortés")
+![Eduardo Diáz Amazon Profile](/assets/img/post/2017-05-01-entrevista-eduardo-diaz-cortes.jpg)
 
 
 *"Eduardo Díaz Cortés Ingeniero Civil en Computación, durante más de 10 años no solo ha participado sino liderado diversos proyectos de tecnologías de la información, desde la automatización de procesos mineros, hasta el comercio electrónico. Su mayor interés es la generación de capacidades locales de desarrollo de tecnología, aportando con su experiencia en el área."*
@@ -89,7 +84,7 @@ También varios, así que nombraré 5:
 
 Queremos agradecer enormemente a Eduardo, por la gentileza de responder y por la sinceridad en cada una de sus palabras. Doce preguntas fueron escasas para toda la experiencia que puede compartir este profesional de élite.
 
-**Si quedaron con gusto a poco como nosotros**, pueden seguir las publicaciones de Eduardo en su blog personal [LNDS.net](www.lnds.net "Enlace blog LNDS"). Pueden seguirlo en su cuenta personal de twitter [@lnds](https://twitter.com/lnds?lang=es "Profle twitter") o comprar su libro [La Naturaleza del Software ](https://www.amazon.com/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C "Amazon Store") en donde recoge parte de los artículos publicados en su blog en todos estos años.  **Un imperdible.** ;) . 
+**Si quedaron con gusto a poco como nosotros**, pueden seguir las publicaciones de Eduardo en su blog personal [LNDS.net](http://www.lnds.net "Enlace blog LNDS"). Pueden seguirlo en su cuenta personal de twitter [@lnds](https://twitter.com/lnds?lang=es "Profle twitter") o comprar su libro [La Naturaleza del Software ](https://www.amazon.com/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C "Amazon Store") en donde recoge parte de los artículos publicados en su blog en todos estos años.  **Un imperdible.** ;) . 
 
 <!-- 
 
