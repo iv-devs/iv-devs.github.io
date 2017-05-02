@@ -19,7 +19,7 @@ Seguimos con esta ronda de *”Entrevistas informales”* a personas líderes de
 
 
 *"Eduardo Díaz Cortés Ingeniero Civil en Computación, durante más de 10 años no solo ha participado sino liderado diversos proyectos de tecnologías de la información, desde la automatización de procesos mineros, hasta el comercio electrónico. Su mayor interés es la generación de capacidades locales de desarrollo de tecnología, aportando con su experiencia en el área."*
-Autor del reconocido blog [ La Naturaleza del Software ](http://www.lnds.net/ "La Naturaleza del Software") *(Aka LNDS)* y del libro con el mismo nombre, ha brindado numerosas charlas y es el organizador del grupo de Meetup **Devops And Continuos Intefration** en Santiago.
+Autor del reconocido blog [ La Naturaleza del Software ](http://www.lnds.net/ "La Naturaleza del Software") *(Aka LNDS)* y del libro con el mismo nombre, ha brindado numerosas charlas y es el organizador del grupo de Meetup **Devops And Continuos Integration** en Santiago.
 
 ----
 
