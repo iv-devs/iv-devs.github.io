@@ -33,9 +33,9 @@ layout: default
 		<div class="container">
 			<div class="row text-center">
 				{% if page.author %}
-				<h2 class="f-30" itemprop="author" itemscope itemtype="http://schema.org/Person">
-					<span itemprop="name">{{ page.author }}</span>
-				</h2>
+				<h3 class="f-30" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<span itemprop="name">por {{ page.author }}</span>
+				</h3>
 				{% endif %}
 				<h4 class=" f-20">
 					<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
