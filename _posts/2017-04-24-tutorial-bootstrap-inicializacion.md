@@ -2,13 +2,13 @@
 layout: post
 title:  "Bootstrap: Primeros pasos"
 image: /post/2017-04-24-bootstrap-2.png
-date: 2017-04-24 16:30:00 -0300
+date: 2017-05-08 10:30:00 -0300
 categories: bootstrap framework web tutorial
 author: Luis Alvarado
 author_tw: rhaegarCL
 
 ---
-En este post aprenderás a configurar paso a paso bootstrap, además conoceras el sistema de grilla que implementa bootstrap
+En este post aprenderás a configurar paso a paso bootstrap, además conocerás el sistema de grilla que implementa bootstrap
 <!--more-->
 
 Si estás aquí y aún no sabes qué es
