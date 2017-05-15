@@ -18,13 +18,13 @@ Para trabajar con *bootstrap* es necesario que sepas *HTML* y *CSS* como base pa
 dicho esto ¡comencemos!.
 
 ## Descargando Bootstrap
-Para descargar bootstrap nos dirigimos a su [sitio oficial](http://getbootstrap.com) y le damos a la opción de *download*, ahí nos encontraremos con tres opciones de descarga, podemos:
+Para descargar bootstrap nos dirigimos a su [sitio oficial](http://getbootstrap.com) y le damos al botón de *download*, ahí nos encontraremos con tres opciones de descarga, podemos:
 1. ***Descargar el código CSS y JavaScript compilado***, que es la forma más sencilla de empezar a utilizar Bootstrap.
 2. ***Descargar el código fuente que contiene todos los archivos Less y JavaScript*** originales de Bootstrap. La desventaja es que requiere un compilador de archivos Less y cierto trabajo de configuración.
 3. ***Descargar el código fuente en formato Sass***, se trata de una variante de la versión anterior y que se ha creado para facilitar la integración de Bootstrap en las aplicaciones Ruby On Rails, Compass o cualquier otro proyecto basado en Sass.
 4. ***Utilizando el CDN de Bootstrap***, donde en un servidor se encuentra una copia de los archivos CSS y JavaScript.
 
-En este tutorial te enseñaré a instalar bootstrap desde cero para que lo integres con tu proyecto web. Por eso, te recomiendo que descargues la opción 1.
+En este tutorial te enseñaré a instalar bootstrap desde cero para que lo integres con tu proyecto web. Por eso, te recomiendo que descargues la primera opción.
 Una vez descargado deberás ver algo como esto, en el cuál aparecen las *carpetas* con los archivos **css**, **fonts** y **js**
 
 ![download-bootstrap](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-bootstrap-carpeta.jpg)
@@ -94,8 +94,8 @@ Para bootstrap los dispositivos móviles son lo más importante, por ende, para 
 ``<meta name="viewport" content= "width = device-width, user-scalable = no, initial-scale = 1.0, maximun-scale = 1.0, minimum-scale= 1.0">``
 
 Los atributos que podemos agregar al `viewport` pueden ser:
-1. width : device-width *(número de pixeles)*
-2. height : device-height *(valor en pixeles)*
+1. device-width
+2. device-height
 3. initial-scale : 0...1 *(1 indica que es sin escala)*
 4. user-scalable : yes...no *(indica si el usuario puede cambiar de la escala)*
 5. minimum-scale : 0...1 *(escala mínima del viewport)*
@@ -128,7 +128,7 @@ Siguamos agregando más contenido, agregaremos el `viewport`, un párrafo `<p></
 </html>
 ~~~
 
-Hasta ahora, si miramos nuestra página en el navegador se vería así.
+Hasta ahora, si miramos nuestra página en el navegador se ve así.
 
 ![vista-1](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-4.jpg)
 *Vista de archivo index.html en el navegador*
@@ -172,15 +172,18 @@ Ahora nuestra página web se deberá ver así de *cool*.
 ![vista-2](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-2.jpg)
 *Vista de archivo index.html en el navegador con el estilo de bootstrap*
 
+![vista-1](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-movil-ipsum2.jpg)
+*Vista de archivo index.html en el móvil*
+
 ¿Te diste cuenta que el estilo de la página cambio?, pues si, bootstrap hace que contruír tu proyecto sea genial. Pero esto no es todo, debemos agregar *jQuery* porque bootstrap lo utiliza para trabajar con sus componentes de *javascript*.
 
 Nos dirigimos a la página web de [*jQuery*](https://jquery.com/) y le damos al botón de ***download jQuery***.
-Luego le damos en la opción de ***"Download the compressed, production jquery 3.2.1"*** y se descargará en nuestro equipo *jQuery* Una vez descargado, lo que debes hacer ahora es renombrar el archivo ***jquery-3.2.1.min.js*** a ***jquery.js***, luego lo copias y lo pegas dentro de la carpeta ***js*** de tu proyecto.
+Luego le damos en la opción de ***"Download the compressed, production jquery 3.2.1"*** y se descargará en nuestro equipo *jQuery*. Una vez descargado, lo que debes hacer ahora es renombrar el archivo ***jquery-3.2.1.min.js*** a ***jquery.js***, luego lo copias y lo pegas dentro de la carpeta ***js*** de tu proyecto.
 
 ![jquery-carpeta](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-jquery-carpeta.jpg)
 *img 1.8 Carpeta js del proyecto con jQuery*
 
-Volvemos a nuestro código para cargar ***jquery.js*** y elemento *js* ***bootstrap.min.js*** lo cargaremos antes de que termine la etiqueta de cierre de `body`.
+Volvemos a nuestro código para cargar ***jquery.js*** y el elemento *js* ***bootstrap.min.js*** lo cargaremos antes de que termine la etiqueta de cierre de `body`.
 
 `<script src="js/jquery.js"></script>`
 
@@ -224,14 +227,14 @@ Bootstrap utiliza el diseño de páginas basado en rejilla, se realiza mediante 
 3. El contenido siempre se coloca dentro de las columnas, ya que las filas sólo deberían contener como hijos elementos de tipo columna.
 4. Bootstrap define muchas clases CSS (como por ejemplo `.row` y `.col-xs-4`) para crear rejillas rápidamente. También existen mixins de Less para crear diseños más semánticos.
 5. La separación entre columnas se realiza aplicando `padding`. Para contrarrestar sus efectos en la primera y última columnas, las filas (elementos `.row`) aplican márgenes negativos.
-6. Las columnas de la rejilla definen su anchura especificando cuántas de las 12 columnas de la fila ocupan. Si por ejemplo quieres dividir una fila en tres columnas iguales, utilizarías la clase `.col-xs-4` (el 4 indica que cada columna ocupa 4 de las 12 columnas en las que se divide cada fila).
+6. Las columnas de la rejilla definen su anchura especificando cuántas de las 12 columnas de la fila ocupan. Si por ejemplo quieres dividir una fila en 3 columnas iguales, utilizarías la clase `.col-xs-4` (el 4 indica que cada columna ocupa 4 de las 12 columnas en las que se divide cada fila).
 
 ![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla.jpg)
 *Características de cada rejilla*
 
 ## Trabajando con las rejillas
-Lo más importante de entender es el sistema de rejillas que plantea Bootstrap.
-Debemos pensar que armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 a 12 columnas. Cada columna con un ancho relativo a ese número 12.
+Lo más importante de entender, es el sistema de rejillas que plantea Bootstrap.
+Debemos pensar que para armar nuestra página, tenemos la posibilidad de definir filas y en cada fila definir de 1 a 12 columnas, cada columna con un ancho relativo a ese número 12.
 Luego Bootstrap se encarga de colapsar las columnas cuando se accede al sitio desde un dispositivo con una capacidad limitada en cuanto al ancho en píxeles (*esto permite una experiencia más placentera al visitante que accede a nuestra página desde un celular con capacidades limitadas*)
 Para ver y entender como creamos las columnas en cada fila y como colapsan según el ancho del dispositivo podemos analizar el siguiente código:
 
@@ -300,16 +303,16 @@ En resumen las clases que se utilizan para hacer que las columnas colapsen son:
 
 
 Si abrimos nuestro ejemplo en un monitor con un ancho superior a 1200 px podemos ver que se muestran tres columnas por fila:
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-grande.jpg)
+![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-grande1.jpg)
 
-Si empezamos a disminuir el ancho del navegador, veremos que cuando el ancho del navegador es menor a 1200 px colapsan las columnas de la primer fila y se muestran una debajo de otra. Como sólo le asignamos la clase `col-lg` al colapsar automaticamente adopta el tamaño más próximo, pero no le indicamos que tamaño adoptar cuando colapse, asi que se ajustará al tamaño más pequeño `col-xs`.
+Si empezamos a disminuir el ancho del navegador, veremos que cuando el ancho del navegador es menor a 1200px colapsan las columnas de la primer fila y se muestran una debajo de otra. Como sólo le asignamos la clase `col-lg` al colapsar automaticamente adopta el tamaño más próximo, pero no le indicamos que tamaño adoptar cuando colapse así que se ajustará al tamaño más pequeño `col-xs`.
 
 ¿Por qué la segunda fila no colapsa?. Esto se debe a que hemos definido la segunda columna con la clase `col-md`y esta se reducirá cuando el ancho del navegador sea menos de 992px.
 
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-mediana.jpg)
+![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-mediana1.jpg)
 
 Para probar podemos seguir reduciendo el ancho del navegador y verás que ahora colapsan tanto la primera fila como la segunda.
 
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-peque.jpg)
+![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-peque1.jpg)
 
-Bien hasta ahora hemos visto como descargar e instalar bootstrap, también aprendiste a enlazar los archivos *css* y *js*. Por último exploramos el sistema de rejilla con la cual trabaja bootstrap. Te propongo a que sigas practicando con las clases y columnas para que puedas dominar estos contenidos. Espero que te haya sido de tu agrado este post y te sirva. Por favor déjame tu comentario y nos vemos en el siguiente tutorial de ***bootstrap***.
+Bien hasta ahora hemos visto como descargar e instalar bootstrap, también aprendiste a enlazar los archivos *css* y *js*. Por último exploramos el sistema de rejilla con la cual trabaja bootstrap. Te animo a que sigas practicando con las clases y columnas para dominar estos contenidos. Espero que te haya sido de tu agrado este post y te sirva. Por favor déjame tu comentario y nos vemos en el siguiente tutorial de ***bootstrap***.
