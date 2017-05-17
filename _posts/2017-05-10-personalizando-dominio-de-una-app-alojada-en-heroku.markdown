@@ -2,7 +2,7 @@
 layout: post
 title:  "Personalizando el dominio de una APP alojada en heroku"
 image: /post/2017-05-10-personalizando-dominio-de-una-app-alojada-en-heroku.jpg
-date:   2017-05-13 01:00:24 -0300
+date:   2017-05-17 12:00:00 -0300
 categories: dominio heroku web
 author: Carlos Alcalde
 author_tw: xinoon
@@ -57,7 +57,7 @@ Lo que debemos hacer en heroku, es agregar un dominio personalizado. Para esto s
 
 1. Necesitamos **agregar si o si nuestra tarjeta de crédito a heroku.** Esto tenemos que  hacer para verificar nuestra cuenta. Como se comentó anteriormente **no se descontará dinero de tu tarjeta!**, es solo para validar la identidad. Para añadir nuestra tarjeta de crédito ingresamos al siguiente link [https://dashboard.heroku.com/account/billing](https://dashboard.heroku.com/account/billing) que se encuentra en la configuración de nuestra cuenta.
 
-2. Una vez agregada la tarjeta, vamos a nustro dashboard e ingresamos a nuestra aplicación. Luego vamos a la opción **"Settings"** y bajamos a la opción **"Domains and certificates"** y hacemos clic en el botón _"Add domain"_
+2. Una vez agregada la tarjeta, vamos a nuestro dashboard e ingresamos a nuestra aplicación. Luego vamos a la opción **"Settings"** y bajamos a la opción **"Domains and certificates"** y hacemos clic en el botón _"Add domain"_
 ![Personaliza tu dominio de heroku](/assets/img/post/2017-05-10-personalizando-dominio-de-una-app-alojada-en-heroku/6.jpg)
 
 3. Debemos agregar agregar dos dominios:
