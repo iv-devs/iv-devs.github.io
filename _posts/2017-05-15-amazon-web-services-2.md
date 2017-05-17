@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Amazon Web Services II"
-image: /post/aws.png
+image: /post/2017-05-15-amazon-web-services-2.png
+date: 2017-05-15 
 categories: aws web services cloud computing
 author: Cristofer
 author_tw: cristofer_dev
 author_fb: cristofer.dev
 author_gh: cristofer-dev
-published: true
 ---
 
 Ya revisamos los conceptos generales de los "Cloud Services" ahora revisaremos los diferentes servicios que nos ofrece Amazon Web Services.
