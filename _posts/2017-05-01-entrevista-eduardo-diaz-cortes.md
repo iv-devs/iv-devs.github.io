@@ -32,7 +32,7 @@ Mi nombre es Eduardo Díaz, autor del blog **La Naturaleza del Software**, y del
 Prefiero autodenominarme **programador**, siento que desarrollador es un término incompleto y que nace de un cierto pudor por lo que hacemos. Aprendí a programar a los 15 años en un [Sinclair ZX81](https://es.wikipedia.org/wiki/Sinclair\_ZX81), luego leyendo el libro Introducción a la programación, de Poblete y Piquer, y a los 18 ingresé a estudiar ingeniería civil en computación a la Universidad de Chile, aunque tuve una gran formación académica, **lo que aprendí en la Universidad es un método, la tecnología requiere que siempre estés estudiando**. Actualmente curso un magister en TI en mi alma mater, el [DCC de la U. De Chile](https://www.dcc.uchile.cl/).
 
 ### 3. ¿Crees que las matemáticas o la física son un conocimiento importante para un desarrollador?
-El razonamiento lógico y las matemáticas son fundamentales para entender en profundidad la tecnología, te ahorran tiempo, te hacen más eficiente y te permiten imaginar soluciones más abstractas y generales. Pero conozco programadores que saben muy poca matemática formal o física, en realidad esos programadores no se dan cuenta que están haciendo matemáticas muy sofisticadas. 
+El razonamiento lógico y las matemáticas son fundamentales para entender en profundidad la tecnología, te ahorran tiempo, te hacen más eficiente y te permiten imaginar soluciones más abstractas y generales. Pero conozco programadores que saben muy poca matemática formal o física, en realidad esos programadores no se dan cuenta que están haciendo matemáticas muy sofisticadas.
 
 **Creo que se debería enseñar a programar en conjunto con las matemáticas y física, desde la formación general básica, incluso antes de aprender a leer y escribir, facilitaría mucho el aprendizaje en los niños.** También creo que la física puede ser útil para aprender a resolver problemas con restricciones. En general, cualquier cosa que te enseñe a pensar estructuradamente sirve, por ejemplo, a mi me gusta mucho la filosofía, y creo que esta tiene mucha aplicación al desarrollo de software *(lean algo de la segunda época de [Wittgenstein](https://es.wikipedia.org/wiki/Ludwig_Wittgenstein), por ejemplo).*
 
@@ -45,7 +45,7 @@ No lo tengo muy claro, quizás dejar algo más duradero, palpable, que puedes re
 ### 6. ¿Tienes algún mentor o alguien en quién te hayas inspirado?
  He tenido mentores, pero son personas que me han apoyado con su sabiduría y consejos, no están en el mundo tecnológico. Con respecto a la inspiración, supongo que en la faceta de escritor me he inspirado en varios autores, como [Isaac Asimov](https://es.wikipedia.org/wiki/Isaac_Asimov), [Jeff Attwood](https://en.wikipedia.org/wiki/Jeff_Atwood) *(de Coding Horror)*, [Joel Spolsky](https://en.wikipedia.org/wiki/Joel_Spolsky) y [Jon Bentley](https://es.wikipedia.org/wiki/Jon_Bentley).
 
-### 7. ¿Es necesario haber pasado por programador para ser jefe de proyectos? 
+### 7. ¿Es necesario haber pasado por programador para ser jefe de proyectos?
  No es condición necesaria. Para nada, conozco grandes jefes de proyecto que vienen de otros mundos. Tampoco creo que el  haber programado tampoco sea garantía de algo. **Lo que sí creo que puede ayudar mucho haber sido un buen programador antes.**
 
 ### 8. ¿Qué haces para mantenerte motivado?
@@ -68,7 +68,7 @@ También varios, así que nombraré 5:
  2. [Breviario de Podredumbre, de E.M Cioran](https://www.amazon.es/Breviario-podredumbre-M-Cioran-ebook/dp/B00MYEHTFO "Amazon Store"), porque es mi filósofo favorito y le debo no sufrir depresión.
  3. [La Odisea, de Homero](https://www.amazon.es/Odisea-Homero-ebook/dp/B0078PHP8A "Amazon Store"), porque es obligación salir en la búsqueda de tu padre.
  4. [Investigaciones filosóficas, de Wittgenstein](https://es.wikipedia.org/wiki/Investigaciones_filos%C3%B3ficas "Wikipedia Source"), porque hay que entender el lenguaje y lo que no se dice
- 5. [Castellio contra Calvino, de Stefan Zweig](https://www.amazon.es/Castellio-contra-Calvino-Conciencia-Acantilado/dp/8495359561 "Amazon Store"), podría nombrar cualquier libro de Zweig, porque me gusta mucho cómo escribe, pero este te impacta mucho. 
+ 5. [Castellio contra Calvino, de Stefan Zweig](https://www.amazon.es/Castellio-contra-Calvino-Conciencia-Acantilado/dp/8495359561 "Amazon Store"), podría nombrar cualquier libro de Zweig, porque me gusta mucho cómo escribe, pero este te impacta mucho.
 
  &nbsp;
 
@@ -80,13 +80,13 @@ También varios, así que nombraré 5:
 
 &nbsp;
 
----- 
+----
 
 Queremos agradecer enormemente a Eduardo, por la gentileza de responder y por la sinceridad en cada una de sus palabras. Doce preguntas fueron escasas para toda la experiencia que puede compartir este profesional de élite.
 
-**Si quedaron con gusto a poco como nosotros**, pueden seguir las publicaciones de Eduardo en su blog personal [LNDS.net](http://www.lnds.net "Enlace blog LNDS"). Pueden seguirlo en su cuenta personal de twitter [@lnds](https://twitter.com/lnds?lang=es "Profle twitter") o comprar su libro [La Naturaleza del Software ](https://www.amazon.com/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C "Amazon Store") en donde recoge parte de los artículos publicados en su blog en todos estos años.  **Un imperdible.** ;) . 
+**Si quedaron con gusto a poco como nosotros**, pueden seguir las publicaciones de Eduardo en su blog personal [LNDS.net](http://www.lnds.net "Enlace blog LNDS"). Pueden seguirlo en su cuenta personal de twitter [@lnds](https://twitter.com/lnds?lang=es "Profle twitter") o comprar su libro [La Naturaleza del Software ](https://www.amazon.com/Naturaleza-del-Software-Spanish-ebook/dp/B00GF0FV1C "Amazon Store") en donde recoge parte de los artículos publicados en su blog en todos estos años.  **Un imperdible.** ;) .
 
-<!-- 
+<!--
 
 En un principio habia ocupado referencia, porque me parece la manera mas correcta sintácticamente de relacionar a los autores y/o palabras desconocidas. Pero kramdown me lo mando al carajo, asi que sobrecarge el documento de links no mas :(
 ----
