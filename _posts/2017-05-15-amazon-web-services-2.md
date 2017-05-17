@@ -18,7 +18,7 @@ Si nos enfocamos solamente en los servicios del área Ti, es en el año 2006 cua
 
 Desde ahí, hacia adelante el lanzamiento de nuevas **características y servicios** ha ido en aumento considerable, en el año **2009** ofrecían *48* servicios, ya en el **2015** ofrecían **722** Servicios y en **2017** alcanzan **2.420** servicios disponibles.
 
-Nos gustaría poder contarte en detalle muchos de ellos, pero entenderás que nos tomaria vírios post para conseguirlo, así que en este post trataremos de contarte en forma breve (muy breve) al menos la forma en la que AWS agrupa sus servicios, de este grupo de servicios **elegiremos algunos de ellos que creemos te serán de utilidad** para poder dar tus primero pasos para llevar tus aplicaciones a la nube y en las publicaciones posteriores profundizaremos en ellos.
+Nos gustaría poder contarte en detalle muchos de ellos, pero entenderás que nos tomaria varios post para conseguirlo, así que en este post trataremos de contarte en forma breve (muy breve) al menos la forma en la que AWS agrupa sus servicios, de este grupo de servicios **elegiremos algunos de ellos que creemos te serán de utilidad** para poder dar tus primero pasos para llevar tus aplicaciones a la nube y en las publicaciones posteriores profundizaremos en ellos.
 
 
 
@@ -32,7 +32,7 @@ Cuando ya tienes el poder de procesamiento cubierto, por lo general la segunda t
 
 ## y las Bases de datos ?
 
-Con [**Amazon RDS**](https://aws.amazon.com/es/rds) puedes tener las relaciones MySQL, Oracle, Aurora, PostgrSQL, MariaDB, SQLServer  y si lo que necesitas es no SQL puedes probar [**Amazon DynamoDB**](https://aws.amazon.com/es/dynamodb) también te tienes la opción de crear Bases de datos en Memoria como [**ElastiCache**](https://aws.amazon.com/es/elasticache) y para bases con grandes volúmenes de datos (petabytes) tienes a [**Redshift**](https://aws.amazon.com/es/redshift) todo dependerá de tus necesidades.
+Con [**Amazon RDS**](https://aws.amazon.com/es/rds) puedes tener las relaciones MySQL, Oracle, Aurora, PostgrSQL, MariaDB, SQLServer  y si lo que necesitas es no SQL puedes probar [**Amazon DynamoDB**](https://aws.amazon.com/es/dynamodb), también te tienes la opción de crear Bases de datos en Memoria como [**ElastiCache**](https://aws.amazon.com/es/elasticache) y para bases con grandes volúmenes de datos (petabytes) tienes a [**Redshift**](https://aws.amazon.com/es/redshift) todo dependerá de tus necesidades.
 
 ## Networking & Content Delivery
 
