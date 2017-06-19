@@ -159,7 +159,7 @@ blockquote{
 .text-undeline	{	text-decoration: underline;	}
 .text-justify	{	text-align:justify;	}
 
-
+.bold { font-weight: bold; }
 /*---------------------------------------
 	Tamaño de fuentes
 ---------------------------------------*/
@@ -180,6 +180,12 @@ blockquote{
 .f-80{	font-size: 80px; }
 .f-85{	font-size: 85px; }
 .f-90{	font-size: 90px; }
+
+.f-3vh{	font-size: 3vh; }
+.f-4vh{	font-size: 4vh; }
+.f-5vh{	font-size: 5vh; }
+.f-6vh{	font-size: 6vh; }
+.f-10vh{	font-size: 10vh; }
 
 /*---------------------------------------
 	Posiciones
@@ -461,6 +467,11 @@ blockquote{
 .m-t-40	{margin-top: 40px;}
 .m-t-45	{margin-top: 45px;}
 .m-t-50	{margin-top: 50px;}
+
+.m-t-5vh{margin-top: 5vh;}
+.m-t-10vh{margin-top: 10vh;}
+.m-t-20vh{margin-top: 20vh;}
+
 
 /*margin Bottom*/
 .m-b-5	{margin-bottom: 5px;}
@@ -911,4 +922,85 @@ div[itemprop="articleBody"] p > img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/************************************
+	DevConferece
+*************************************/
+.devConf{
+	color: #FFF;
+}
+
+.devConf img{
+	object-fit: cover;
+	width: 100%;
+  	height: 100%;
+}
+
+.devConf .row{
+	min-height: 100vh;
+}
+
+.devConf p{
+	text-align: justify;
+}
+
+.devConf p::before{
+	content:'>';
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 0;
+	color: #FF0153;
+}
+
+
+.rojo{ 	color: #FF0153; }
+.azul{	color: #008AB5;	}
+
+.devConf h1,h2,h3,h4{
+	color: #FF0153;
+}
+.devConf h1::before,h2::before,h3::before{
+	content:'> ';
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 0;
+	color: #FFF;
+}
+.devConf h1::after{
+	content:none;
+}
+
+
+.logoDevConf{
+	height: 10vh;
+
+}
+
+.vh100{
+	height: 100vh;
+}
+.vh50{ height: 50vh;
+}
+.vh80{
+	height: 80vh;
+}
+
+.devConf .gradiant-azul {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,56,130,1)); 
+}
+.devConf .gradiant{
+	position: absolute;
+	height: 100%;
+	width: auto;
+	z-index: 0;
+	left: 0px;
+	right: 0px;
+	top: 0;
+}
+#numeros .valor{
+	color: yellow;
+	font-size: 10vh;
+	font-style: italic;
+	font-weight: bold;
 }
