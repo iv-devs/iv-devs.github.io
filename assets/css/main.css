@@ -999,7 +999,7 @@ div[itemprop="articleBody"] p > img{
 	top: 0;
 }
 #numeros .valor{
-	color: yellow;
+	color: /*yellow*/;
 	font-size: 10vh;
 	font-style: italic;
 	font-weight: bold;
