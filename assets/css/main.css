@@ -935,7 +935,12 @@ div[itemprop="articleBody"] p > img{
 *************************************/
 .devConf{
 	color: #FFF;
-	font-size: 1.3em;
+	font-size: 2.5vh;
+}
+
+.devConf p{
+	text-align: justify;
+	font-size: 2.5vh;
 }
 
 .devConf img{
@@ -955,9 +960,7 @@ div[itemprop="articleBody"] p > img{
 	margin-bottom: 10vh;
 }
 
-.devConf p{
-	text-align: justify;
-}
+
 
 .rojo{ 	color: #FF0153; }
 .azul{	color: #008AB5;	}
