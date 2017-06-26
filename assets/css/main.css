@@ -935,6 +935,7 @@ div[itemprop="articleBody"] p > img{
 *************************************/
 .devConf{
 	color: #FFF;
+	font-size: 1.3em;
 }
 
 .devConf img{
@@ -950,20 +951,13 @@ div[itemprop="articleBody"] p > img{
 
 .devConf > .row{
 	min-height: 100vh;
+
+	margin-bottom: 10vh;
 }
 
 .devConf p{
 	text-align: justify;
 }
-
-.devConf p::before{
-	content:'>';
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	margin-top: 0;
-	color: #FF0153;
-}
-
 
 .rojo{ 	color: #FF0153; }
 .azul{	color: #008AB5;	}
