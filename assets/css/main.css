@@ -1009,14 +1009,15 @@ div[itemprop="articleBody"] p > img{
 	right: 0px;
 	top: 0;
 }
-#numeros .valor{
+.devConf #numeros .valor{
 	color: /*yellow*/;
 	font-size: 10vh;
 	font-style: italic;
 	font-weight: bold;
 }
 
-#temas h2, #sponsor h2 {
+.devConf #temas h2, 
+.devConf #sponsor h2 {
 	color: white;
 	font-size: 5vh;
 	padding-top: 2vh;
@@ -1030,4 +1031,9 @@ div[itemprop="articleBody"] p > img{
 	object-fit: contain;
 	width: 100%;
   	height: 100%;
+}
+
+.devConf a {
+	color: #FFF;
+	font-weight: bold;
 }
