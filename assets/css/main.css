@@ -480,6 +480,7 @@ blockquote{
 
 
 /*margin Bottom*/
+.m-b-0	{margin-bottom: 0px;}
 .m-b-5	{margin-bottom: 5px;}
 .m-b-10	{margin-bottom: 10px;}
 .m-b-15	{margin-bottom: 15px;}
@@ -964,6 +965,7 @@ div[itemprop="articleBody"] p > img{
 
 .rojo{ 	color: #FF0153; }
 .azul{	color: #008AB5;	}
+.verde{	color: #83CD29;	}
 
 .devConf h1,h2,h3,h4{
 	color: #FF0153;
