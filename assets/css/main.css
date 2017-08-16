@@ -1036,3 +1036,9 @@ div[itemprop="articleBody"] p > img{
 	color: #FFF;
 	font-weight: bold;
 }
+
+.devConf #sponsor div{
+	height: 100px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
