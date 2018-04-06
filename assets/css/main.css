@@ -159,7 +159,7 @@ blockquote{
 .text-undeline	{	text-decoration: underline;	}
 .text-justify	{	text-align:justify;	}
 
-
+.bold { font-weight: bold; }
 /*---------------------------------------
 	Tamaño de fuentes
 ---------------------------------------*/
@@ -180,6 +180,13 @@ blockquote{
 .f-80{	font-size: 80px; }
 .f-85{	font-size: 85px; }
 .f-90{	font-size: 90px; }
+
+.f-2vh{	font-size: 2vh; }
+.f-3vh{	font-size: 3vh; }
+.f-4vh{	font-size: 4vh; }
+.f-5vh{	font-size: 5vh; }
+.f-6vh{	font-size: 6vh; }
+.f-10vh{	font-size: 10vh; }
 
 /*---------------------------------------
 	Posiciones
@@ -387,6 +394,8 @@ blockquote{
 .p-45	{	padding: 45px;	}
 .p-50	{	padding: 50px;	}
 
+.p-5vw	{	padding: 5vw;	}
+
 /*Padding Top*/
 .p-t-5	{	padding-top: 5px;	}
 .p-t-10	{	padding-top: 10px;	}
@@ -423,6 +432,8 @@ blockquote{
 .p-l-45	{	padding-left: 45px;	}
 .p-l-50	{	padding-left: 50px;	}
 
+.p-l-5vw	{	padding-left: 5vw;	}
+
 /*Padding right*/
 .p-r-5	{	padding-right: 5px;	}
 .p-r-10	{	padding-right: 10px;	}
@@ -435,6 +446,7 @@ blockquote{
 .p-r-45	{	padding-right: 45px;	}
 .p-r-50	{	padding-right: 50px;	}
 
+.p-r-5vw	{	padding-right: 5vw;	}
 
 /*---------------------------------------
 	Margin
@@ -462,7 +474,13 @@ blockquote{
 .m-t-45	{margin-top: 45px;}
 .m-t-50	{margin-top: 50px;}
 
+.m-t-5vh{margin-top: 5vh;}
+.m-t-10vh{margin-top: 10vh;}
+.m-t-20vh{margin-top: 20vh;}
+
+
 /*margin Bottom*/
+.m-b-0	{margin-bottom: 0px;}
 .m-b-5	{margin-bottom: 5px;}
 .m-b-10	{margin-bottom: 10px;}
 .m-b-15	{margin-bottom: 15px;}
@@ -911,4 +929,116 @@ div[itemprop="articleBody"] p > img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/************************************
+	DevConferece
+*************************************/
+.devConf{
+	color: #FFF;
+	font-size: 2.5vh;
+}
+
+.devConf p{
+	text-align: justify;
+	font-size: 2.5vh;
+}
+
+.devConf img{
+	object-fit: contain;
+	width: 100%;
+  	height: 100%;
+}
+
+.devConf #ivdevs,
+.devConf #ust{
+	max-height: 10vh;
+} 
+
+.devConf > .row{
+	min-height: 100vh;
+
+	margin-bottom: 10vh;
+}
+
+
+
+.rojo{ 	color: #FF0153; }
+.azul{	color: #008AB5;	}
+.verde{	color: #83CD29;	}
+
+.devConf h1,h2,h3,h4{
+	color: #FF0153;
+}
+.devConf h1::before,h2::before,h3::before{
+	content:'> ';
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 0;
+	color: #FFF;
+}
+.devConf h1::after{
+	content:none;
+}
+
+
+.logoDevConf{
+	height: 10vh;
+
+}
+
+.vh100{
+	height: 100vh;
+}
+.vh50{ height: 50vh;
+}
+.vh80{
+	height: 80vh;
+}
+
+.devConf .gradiant-azul {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,56,130,1)); 
+}
+.devConf .gradiant{
+	position: absolute;
+	height: 100%;
+	width: auto;
+	z-index: 0;
+	left: 0px;
+	right: 0px;
+	top: 0;
+}
+.devConf #numeros .valor{
+	color: /*yellow*/;
+	font-size: 10vh;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.devConf #temas h2, 
+.devConf #sponsor h2 {
+	color: white;
+	font-size: 5vh;
+	padding-top: 2vh;
+}
+
+.devConf #partners .img {
+	height: 25vh;
+	padding-top: 10vh;
+}
+.devConf #partners img{
+	object-fit: contain;
+	width: 100%;
+  	height: 100%;
+}
+
+.devConf a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+.devConf #sponsor div{
+	height: 100px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }

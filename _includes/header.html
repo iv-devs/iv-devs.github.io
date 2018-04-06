@@ -30,7 +30,7 @@
                             />
                         </a>
                     </li>
-                {% else %}
+                    {% elsif my_page.menu != false %}
                     <li>
                         <a href="{{ my_page.url | prepend: site.baseurl }}">
                             <
