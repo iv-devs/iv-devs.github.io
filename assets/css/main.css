@@ -950,6 +950,12 @@ div[itemprop="articleBody"] p > img{
   	height: 100%;
 }
 
+.devConf .img_old{
+	object-fit: contain;
+	width: 50%;
+  	height: 100%;
+}
+
 .devConf #ivdevs,
 .devConf #ust{
 	max-height: 10vh;
@@ -1039,6 +1045,6 @@ div[itemprop="articleBody"] p > img{
 
 .devConf #sponsor div{
 	height: 100px;
-	margin-top: 10vh;
+	margin-top: 2vh;
 	margin-bottom: 10vh;
 }
