@@ -1048,3 +1048,27 @@ div[itemprop="articleBody"] p > img{
 	margin-top: 2vh;
 	margin-bottom: 10vh;
 }
+
+/*
+* Past Speakers
+*/
+
+#past-speakers img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+#past-speakers .row>div{
+margin: 40px 0;
+}
+
+#past-speakers>.row>div>div:nth-child(2){
+	color: white;
+	font-weight: bold;
+}
+
+#past-speakers>.row>div>div:nth-child(3){
+	color: #FF0153;
+	font-size: 20px;
+}
