@@ -12,6 +12,9 @@ author_gh: HPaez
 Aprende como crear tu primer post en el blog de la comunidad, y también aprender como utilizar markdown.
 <!--more-->
 
+> **Nota:** las capturas de pantalla originales de este artículo ya no están disponibles.
+
+
 # ¿Cómo obtener los archivo de la web de IV Devs?
 
 Hoy enseñaremos como crear un post en el blog de la comunidad y aportar a esta.  
@@ -155,12 +158,12 @@ Como ingresar un enlace a su post, existen varias formas
 Forma 1:  
 
 ```
-[Texto a mostrar](http://ivdevs.com/ "texto al pasar el mouse")
+[Texto a mostrar](https://ivdevs.cl/ "texto al pasar el mouse")
 ```
 Forma 2:  
 
 ```
-[Texto a mostrar](http://ivdevs.com/)
+[Texto a mostrar](https://ivdevs.cl/)
 ```
 
 Forma 3:  
@@ -181,13 +184,13 @@ Como hacer citas
 Dos formas de ingresar imágenes, la primera como mostrar una foto con título  
 
 ```
-![Texto representativo](http://ivdevs.com/img/logo.png "titulo")
+![Texto representativo](https://ivdevs.cl/img/logo.png "titulo")
 ```
 
 Segunda forma sin título  
 
 ```
-![Texto representativo](http://ivdevs.com/img/logo.png)
+![Texto representativo](https://ivdevs.cl/img/logo.png)
 ```
 
 Como colocar código

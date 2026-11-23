@@ -13,7 +13,7 @@ En este post aprenderás a configurar paso a paso bootstrap, además conocerás 
 
 Si estás aquí y aún no sabes qué es
 *bootstrap* te invito a que revises el primer post de esta serie dónde se explica
-[¿Qué es?](http://ivdevs.com/blog/2017/04/18/bootstrap-que-es-y-como-implementarlo/).
+[¿Qué es?](https://ivdevs.cl/blog/2017/04/24/que-es-bootstrap/).
 Para trabajar con *bootstrap* es necesario que sepas *HTML* y *CSS* como base para poder meter manos al código,
 dicho esto ¡comencemos!.
 
@@ -27,7 +27,7 @@ Para descargar bootstrap nos dirigimos a su [sitio oficial](http://getbootstrap.
 En este tutorial te enseñaré a instalar bootstrap desde cero para que lo integres con tu proyecto web. Por eso, te recomiendo que descargues la primera opción.
 Una vez descargado deberás ver algo como esto, en el cuál aparecen las *carpetas* con los archivos **css**, **fonts** y **js**
 
-![download-bootstrap](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-bootstrap-carpeta.jpg)
+![download-bootstrap](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-bootstrap-carpeta.jpg)
 *Carpeta descargada con los archivos de bootstrap.*
 
 ## Conociendo su estructura y archivos
@@ -55,7 +55,7 @@ Los contenidos de los dos archivos son exactamente los mismos, pero la versión 
 
 Luego *copiamos* esas tres carpetas y la pegamos en la carpeta dónde se encuentra nuestro proyecto donde ya existe un *index.html*.
 
-![download-bootstrap](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-pegando-bootstrap-a-tu-proyecto.jpg)
+![download-bootstrap](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-pegando-bootstrap-a-tu-proyecto.jpg)
 *Carpeta del proyecto con archivos bootstrap.*
 
 Como puedes ver nuestro ***index.html*** aún no tiene nada. Escribamos una etiqueta  `<h1>lorem ipsum</h1>` de prueba.
@@ -130,7 +130,7 @@ Siguamos agregando más contenido, agregaremos el `viewport`, un párrafo `<p></
 
 Hasta ahora, si miramos nuestra página en el navegador se ve así.
 
-![vista-1](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-4.jpg)
+![vista-1](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-4.jpg)
 *Vista de archivo index.html en el navegador*
 
 ## Llamando a bootstrap
@@ -169,10 +169,10 @@ lo colacamos dentro del `<head></head>` justo después del `meta viewport`, con 
 
 Ahora nuestra página web se deberá ver así de *cool*.
 
-![vista-2](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-2.jpg)
+![vista-2](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-vista-2.jpg)
 *Vista de archivo index.html en el navegador con el estilo de bootstrap*
 
-![vista-1](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-movil-ipsum2.jpg)
+![vista-1](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-movil-ipsum2.jpg)
 *Vista de archivo index.html en el móvil*
 
 ¿Te diste cuenta que el estilo de la página cambio?, pues si, bootstrap hace que contruír tu proyecto sea genial. Pero esto no es todo, debemos agregar *jQuery* porque bootstrap lo utiliza para trabajar con sus componentes de *javascript*.
@@ -180,7 +180,7 @@ Ahora nuestra página web se deberá ver así de *cool*.
 Nos dirigimos a la página web de [*jQuery*](https://jquery.com/) y le damos al botón de ***download jQuery***.
 Luego le damos en la opción de ***"Download the compressed, production jquery 3.2.1"*** y se descargará en nuestro equipo *jQuery*. Una vez descargado, lo que debes hacer ahora es renombrar el archivo ***jquery-3.2.1.min.js*** a ***jquery.js***, luego lo copias y lo pegas dentro de la carpeta ***js*** de tu proyecto.
 
-![jquery-carpeta](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-jquery-carpeta.jpg)
+![jquery-carpeta](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-jquery-carpeta.jpg)
 *img 1.8 Carpeta js del proyecto con jQuery*
 
 Volvemos a nuestro código para cargar ***jquery.js*** y el elemento *js* ***bootstrap.min.js*** lo cargaremos antes de que termine la etiqueta de cierre de `body`.
@@ -229,7 +229,7 @@ Bootstrap utiliza el diseño de páginas basado en rejilla, se realiza mediante 
 5. La separación entre columnas se realiza aplicando `padding`. Para contrarrestar sus efectos en la primera y última columnas, las filas (elementos `.row`) aplican márgenes negativos.
 6. Las columnas de la rejilla definen su anchura especificando cuántas de las 12 columnas de la fila ocupan. Si por ejemplo quieres dividir una fila en 3 columnas iguales, utilizarías la clase `.col-xs-4` (el 4 indica que cada columna ocupa 4 de las 12 columnas en las que se divide cada fila).
 
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla.jpg)
+![jquery-cargando](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla.jpg)
 *Características de cada rejilla*
 
 ## Trabajando con las rejillas
@@ -303,16 +303,16 @@ En resumen las clases que se utilizan para hacer que las columnas colapsen son:
 
 
 Si abrimos nuestro ejemplo en un monitor con un ancho superior a 1200 px podemos ver que se muestran tres columnas por fila:
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-grande1.jpg)
+![jquery-cargando](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-grande1.jpg)
 
 Si empezamos a disminuir el ancho del navegador, veremos que cuando el ancho del navegador es menor a 1200px colapsan las columnas de la primer fila y se muestran una debajo de otra. Como sólo le asignamos la clase `col-lg` al colapsar automaticamente adopta el tamaño más próximo, pero no le indicamos que tamaño adoptar cuando colapse así que se ajustará al tamaño más pequeño `col-xs`.
 
 ¿Por qué la segunda fila no colapsa?. Esto se debe a que hemos definido la segunda columna con la clase `col-md`y esta se reducirá cuando el ancho del navegador sea menos de 992px.
 
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-mediana1.jpg)
+![jquery-cargando](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-mediana1.jpg)
 
 Para probar podemos seguir reduciendo el ancho del navegador y verás que ahora colapsan tanto la primera fila como la segunda.
 
-![jquery-cargando](/assets/img/post/2017-24-04-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-peque1.jpg)
+![jquery-cargando](/assets/img/post/2017-05-08-iniciando-tu-proyecto-en-bootstrap/2017-04-24-grilla-peque1.jpg)
 
 Bien hasta ahora hemos visto como descargar e instalar bootstrap, también aprendiste a enlazar los archivos *css* y *js*. Por último exploramos el sistema de rejilla con la cual trabaja bootstrap. Te animo a que sigas practicando con las clases y columnas para dominar estos contenidos. Espero que te haya sido de tu agrado este post y te sirva. Por favor déjame tu comentario y nos vemos en el siguiente tutorial de ***bootstrap***.
