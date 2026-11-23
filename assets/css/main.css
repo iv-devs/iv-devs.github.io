@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'OpenSansCondensed';
-  src: url('/assets/fonts/OpenSansCondensed.woff') format('woff');
+  src: url('../fonts/OpenSansCondensed.woff') format('woff');
 }
 
 
@@ -29,6 +29,9 @@ body{
 	background: #FFF;
 	font-weight: 300;
 	color: #000;
+}
+a{
+	text-decoration: none;
 }
 p{
 	font-weight: 300;
@@ -112,6 +115,7 @@ blockquote{
 	}
 	hr.divider-morado{
 		border-top:3px solid #4E3088;
+		opacity: 1;
 	}
 
 	hr.divider-azul{
@@ -555,7 +559,8 @@ blockquote{
 }
 
 .logo{
-	height: 100%
+	height: 30px;
+	width: auto;
 }
 	.is-sticky header{
 		z-index: 9999!important;
@@ -821,6 +826,7 @@ footer{
 .img_post{
 	height: 200px;
 	width: 100%;
+	position: relative;
 }
 
 .img_post img{
@@ -852,8 +858,8 @@ footer{
 	height: inherit;
 	width: auto;
 	z-index: 20;
-	left: 15px;
-	right: 15px;
+	left: 0;
+	right: 0;
 	top: 0;
 }
 
@@ -868,33 +874,22 @@ footer{
 }
 
 
-.img_bg img{
-	object-fit: cover;
-	width: 100%;
-  	height: 100%;
-
-	position: absolute;
-	z-index: -10;
-	left: 0;
-	top: 0;
-
-	/*FILTRO*/
-	 filter: grayscale(50%)blur(3px);
-	 /*filter: blur(3px);*/
+.home-hero{
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
 }
 
-.img_bg .gradiant{
-	/*position: absolute;*/
-	height: 102%;
-	width: 100%;
-	z-index: -5;
-	left: 0;
-	right: 0;
-	top: 0;
-
-	background: linear-gradient(to bottom,
-	    rgba(255,255,255,0.5), 
-	    rgba(255,255,255,1)); 
+.home-hero::before{
+	content: "";
+	position: absolute;
+	inset: -10px; /* margen extra para que el blur no muestre bordes */
+	z-index: -1;
+	pointer-events: none;
+	background:
+		linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,1) 90%),
+		url('../img/bg_home_3.jpg') center top / cover no-repeat;
+	filter: grayscale(50%) blur(3px);
 }
 
 /************************************
@@ -911,10 +906,10 @@ footer{
 /************************************
 	RRSS
 *************************************/
-.carousel-inner > .item {
+.carousel-inner > .carousel-item {
 	height: 300px;
 }
-.carousel-inner > .item > img{
+.carousel-inner > .carousel-item > img{
 	object-fit: cover;
 	width: 100%;
   	height: 100%;

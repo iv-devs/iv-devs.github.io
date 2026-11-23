@@ -25,7 +25,7 @@ Si seguimos investigando nos encontraremos con muchas definiciones más iguales 
 
 
 ### ¿Cómo conseguimos una buena experiencia de usuario?
-![Facetas UX](/assets/img/post/2017-04-20-que-es-ux-y-ui/2017-04-20-ux-1.jpg)
+![Facetas UX]({{ '/assets/img/post/2017-04-20-que-es-ux-y-ui/2017-04-20-ux-1.jpg' | relative_url }})
 Una buena UX se logra a través del **Diseño Centrado en el Humano**, el cual es el enfoque de conocer las *necesidades de los usuarios* y alinearlos a los *objetivos del negocio* tomando también en cuenta las *limitaciones técnicas*.
 
 Normalmente en una empresa, la persona que se dedica a *UX* se denomina *UX Designer* cuya responsabilidad está en investigar que es lo que las personas necesitan para cumplir sus objetivos y resolver sus dolores.
@@ -33,7 +33,7 @@ Normalmente en una empresa, la persona que se dedica a *UX* se denomina *UX Desi
 ## ¿Qué es UI?
 Por sus siglas en inglés significa *User Interface*, ahora si empleamos nuestro traductor a lenguaje terrícola veremos que se traduce como *Interfaz de usuario*. Esto es la vista que permite al usuario poder interactuar de manera efectiva con un sistema. Podemos decir que es la suma de ***arquitectura de información*** + ***elementos visuales*** + ***patrones de interacción***. El ***UI*** le da el "*look*" al producto con la estructura e interacción con los elementos de la interfaz.
 
-![Facetas UX](/assets/img/post/2017-04-20-que-es-ux-y-ui/2017-04-20-que-es-ui.jpg)
+![Facetas UX]({{ '/assets/img/post/2017-04-20-que-es-ux-y-ui/2017-04-20-que-es-ui.jpg' | relative_url }})
 
 En una empresa la persona que se dedica a ***UI*** ~~ya adivinaran~~ se llama *UI Designer*, éste se encarga de crear visualmente la *interfaz del producto* para que esté acorde a la *experiencia de usuario*. También puede crear elementos interactivos y se preocupa que la visusalización quede bien en todas las plataformas.
 

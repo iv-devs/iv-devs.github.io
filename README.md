@@ -1,36 +1,73 @@
-#IV Devs Website
+# IV Devs Website
+
+Sitio de la comunidad **IV Devs** (La Serena / Coquimbo, Chile), publicado en [ivdevs.cl](https://ivdevs.cl).
+
 ## Descripción
-El proyecto basado en [jekyll](https://jekyllrb.com/), por lo que usa ruby el manejo de templates.
-Está configurado para utilizar sass como preprocesador de CSS pero es totalmete opcional, el resto es HTML5 y JS.
 
-##Requesitos
--[ruby-lang](https://www.ruby-lang.org/es/)
+El proyecto está basado en [Jekyll 4](https://jekyllrb.com/), por lo que usa Ruby para el manejo de templates. El CSS es HTML/CSS/JS plano, por lo que no necesitas compilar estilos aparte.
 
-##Instalación
-- `fork and clone`
-- `gem install jekyll bundler`
-- `bundle exec jekyll serve`
-- Abrir [http://localhost:4000](http://localhost:4000)
+Dependencias de frontend (vía CDN): **Bootstrap 5.3.9** y **Font Awesome Free 7.3.1**. No se usa jQuery.
 
-##Instalación en Debian 8.8
+## Requisitos
 
-- `apt-get install ruby-full make gcc`
-- `gem install jekyll bundler`
-- `bundle exec jekyll serve`
+- [Ruby](https://www.ruby-lang.org/es/) 4.0.10 (ver `mise.toml`)
+- o Docker
 
-##Como subir un post al blog
-Para agregar un nuevo post, solo debes crear un archivo en la carpeta `_posts` con la siguiente convención de nombre `YYYY-MM-DD-name-of-post.md` y comienza a redactar tu post.
-Jekyll utiliza markdown para manejar los post. si no te manejas con markdown te recomiendo utilizar este [editor online](https://stackedit.io/editor)
+El repositorio incluye `mise.toml`, así que la forma más simple es:
 
+```bash
+mise install     # instala Ruby 4.0.10
+bundle install
+bundle exec jekyll serve
+```
+
+Abre [http://localhost:4000](http://localhost:4000).
+
+Si no usas `mise`, necesitas Ruby >= 2.7 y luego:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+## Instalación en Debian/Ubuntu
+
+```bash
+sudo apt-get install ruby-full make gcc
+bundle install
+bundle exec jekyll serve
+```
+
+## Cómo subir un post al blog
+
+Crea un archivo en `_posts` con la convención `YYYY-MM-DD-nombre-del-post.md` y
+comienza a redactar. Jekyll usa Markdown para los posts; si no lo manejas, puedes usar este [editor online](https://stackedit.io/editor).
 
 ## Opción Docker
-Se ha incluído en el repositorio un Dockerfile.
-Para usar la imagen para desarrollo deben hacer dos cosas fundamentales:
 
-1.  **Buildear la imagen**, para ello ingresar (en el mismo directorio del proyecto): `docker build -t ivdevs/web .`
-1. **Crear un container para trabajar**: Permaneciendo en el mismo directorio donde se encuentra el proyecto, ingresar:
- `docker run -it --name ivdevsweb -v $(pwd):/home/ivdevs/web --net host ivdevs/web`
+El `Dockerfile` usa Ruby 4.0 y deja lista la imagen para desarrollo:
 
-Cuando ya hayas creado este container deberás ingresar: `docker start -ia ivdevsweb` cada vez que quieras trabajar con él.
+```bash
+docker build -t ivdevs/web .
+docker run --rm -it -v $(pwd):/home/ivdevs/web -p 4000:4000 ivdevs/web \
+  bash -lc "bundle install && bundle exec jekyll serve --host 0.0.0.0"
+```
 
-*Recuerda que al momento de ingresar por primera vez al container, debes correr **bundle install**.*
+Luego abre [http://localhost:4000](http://localhost:4000).
+
+Si prefieres un contenedor persistente:
+
+```bash
+docker run -it --name ivdevsweb -v $(pwd):/home/ivdevs/web --net host ivdevs/web
+```
+
+Dentro del contenedor, la primera vez corre `bundle install`. Después lo retomas con `docker start -ia ivdevsweb`.
+
+## Despliegue
+
+El sitio se publica en GitHub Pages mediante GitHub Actions (`.github/workflows/pages.yml`): cada push a `master` construye con Jekyll 4 y despliega el resultado.
+
+- Dominio: definido en `CNAME` (`ivdevs.cl`).
+- En GitHub: *Settings → Pages → Source: GitHub Actions*.
+- El builder clásico de GitHub Pages usa Jekyll 3.8 y **no** usa este `Gemfile`,
+  por eso se migró a Actions.

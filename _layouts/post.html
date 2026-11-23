@@ -43,24 +43,24 @@ layout: default
 				
 				<ul class="list-inline">
 					{% for tag in page.categories %}
-					<li><code>{{ tag }}</code></li>
+					<li class="list-inline-item"><code>{{ tag }}</code></li>
 					{% endfor %}
 				</ul>
 
 				<ul class="m-b-20">
 					{% if page.author_fb %}
 					<li class="d-inline nuestras-redes p-l-10 p-r-10">
-						<a class="f-20 " href="https://www.facebook.com/{{ page.author_fb }}"><i class="fa fa-facebook"></i></a>
+						<a class="f-20 " href="https://www.facebook.com/{{ page.author_fb }}"><i class="fa-brands fa-facebook"></i></a>
 					</li>
 					{% endif %}
 					{% if page.author_tw %}
 					<li class="d-inline nuestras-redes p-l-10 p-r-10">
-						<a class="f-20 " href="https://twitter.com/{{ page.author_tw }}"><i class="fa fa-twitter"></i></a>
+						<a class="f-20 " href="https://twitter.com/{{ page.author_tw }}"><i class="fa-brands fa-twitter"></i></a>
 					</li>
 					{% endif %}
 					{% if page.author_gh %}
 					<li class="d-inline nuestras-redes p-l-10 p-r-10">
-						<a class="f-20 " href="https://github.com/{{ page.author_gh }}"><i class="fa fa-github"></i></a>
+						<a class="f-20 " href="https://github.com/{{ page.author_gh }}"><i class="fa-brands fa-github"></i></a>
 					</li>
 					{% endif %}
 				</ul>
@@ -71,7 +71,7 @@ layout: default
 	<section class="page p-t-50 p-b-50 text-justify">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2" itemprop="articleBody">
+				<div class="col-md-8 offset-md-2" itemprop="articleBody">
 					<!-- Texto -->
 					{{ content }}
 				</div>

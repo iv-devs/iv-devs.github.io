@@ -3,109 +3,121 @@ layout: default
 title: Inicio
 order: 1
 ---
-<!-- EVENTO -->
-<div class="container">
 
-    <!-- ANUNCIO MEETUP -->
-    
-    <div class="row">
-        <div class="col-md-12">
-            <div class="info-evento">
-                <h1 class="f-30">Proximo Meetup</h1>
+<!-- ==========================================================
+     HERO (fondo decorativo exclusivo del inicio)
+     ========================================================== -->
+<section class="home-hero" aria-label="Comunidad IV Devs">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info-evento">
+                    <h1 class="f-30">Próximo Meetup</h1>
+                    <hr class="divider-morado">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 banner-meetup">
+                <a href="https://www.meetup.com/es-ES/IV-DEVS/events/261902987/">
+                    <img src="{{ '/assets/img/meetups/2019-06-08-reboot.jpg' | relative_url }}" alt="Meetup Reboot - 8 de junio">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center p-10">
+                <a class="btn p-15 tags bg-cian" href="https://www.meetup.com/es-ES/IV-DEVS/events/261902987/">Inscribirme</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ======================================================
+         LA COMUNIDAD
+         ====================================================== -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="f-30 p-t-30">La Comunidad</h1>
                 <hr class="divider-morado">
             </div>
         </div>
-        <div class="col-md-12 banner-meetup">
-            <a href="https://www.meetup.com/es-ES/IV-DEVS/events/261902987/">
-            <img src="/assets/img/meetups/2019-06-08-reboot.jpg">
-            </a>
-            <!-- <p class="bg-blanco p-20">
-                
-            </p> -->
-        </div>
-        
-    </div>
-    <div class="row ">
-        <div class="col-md-12 text-center p-10">
-            
-            <a class="btn p-15 tags bg-cian" href="https://www.meetup.com/es-ES/IV-DEVS/events/261902987/"> Inscribirme</a>
-            
-        </div>
-    </div>
-    
-    <!-- FIN ANUNCIO MEETUP -->
-
-    <h1 class="f-30 p-t-30">La Comunidad</h1>
-    <hr class="divider-morado">
 
     <div class="row">
-        <!-- Carousel -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="first-slide" src="/assets/img/slider/galeria-1.jpg" alt="First slide">
+        <div class="col-md-12">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 </div>
-                <div class="item">
-                    <img class="second-slide" src="/assets/img/slider/galeria-2.jpg" alt="Second slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="{{ '/assets/img/slider/galeria-1.jpg' | relative_url }}" alt="Comunidad IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="second-slide" src="{{ '/assets/img/slider/galeria-2.jpg' | relative_url }}" alt="Meetup IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="third-slide" src="{{ '/assets/img/slider/galeria-3.jpg' | relative_url }}" alt="Charla IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="four-slide" src="{{ '/assets/img/slider/galeria-4.jpg' | relative_url }}" alt="Workshop IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="five-slide" src="{{ '/assets/img/slider/galeria-5.jpg' | relative_url }}" alt="Comunidad IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="six-slide" src="{{ '/assets/img/slider/galeria-6.jpg' | relative_url }}" alt="Conferencia IV Devs">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="seven-slide" src="{{ '/assets/img/slider/galeria-7.jpg' | relative_url }}" alt="Evento IV Devs">
+                    </div>
                 </div>
-                <div class="item">
-                    <img class="third-slide" src="/assets/img/slider/galeria-3.jpg" alt="Third slide">
-                </div>
-                <div class="item">
-                    <img class="four-slide" src="/assets/img/slider/galeria-4.jpg" alt="Third slide">
-                </div>
-                <div class="item">
-                    <img class="five-slide" src="/assets/img/slider/galeria-5.jpg" alt="Five slide">
-                </div>
-                <div class="item">
-                    <img class="six-slide" src="/assets/img/slider/galeria-6.jpg" alt="Six slide">
-                </div>
-                <div class="item">
-                    <img class="seven-slide" src="/assets/img/slider/galeria-7.jpg" alt="Seven slide">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
             </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        <!-- /.carousel -->
     </div>
-</div>
+
+</section>
+
+<!-- ==========================================================
+     QUIÉNES SOMOS / QUÉ BUSCAMOS / CÓMO LO HACEMOS
+     ========================================================== -->
 <section class="contenidos prox-evento p-t-50 p-b-50">
-    <div class="img_bg">
-        <img src="/assets/img/bg_home_3.jpg" alt="">
-        <div class="gradiant"></div>
-    </div>
+
     <div class="container">
+
         <div class="row">
             <div class="col-md-6">
                 <h1 class="f-30">Quiénes Somos</h1>
                 <hr class="divider-morado">
                 <p class="text-justify b-5 c-blanco p-25 m-t-20 bg-azul">
-                    Una comunidad de amigos apasionados por la tecnología e informática, que busca compartir conocimiento de forma libre y sin fines de lucro, con el fin de fortalecer a los miembros de la comunidad para generar un impacto positivo en la región. 
+                    Una comunidad de amigos apasionados por la tecnología e informática, que busca compartir conocimiento de forma libre y sin fines de lucro, con el fin de fortalecer a los miembros de la comunidad para generar un impacto positivo en la región.
                 </p>
             </div>
             <div class="col-md-6">
-                <h1 class="f-30">Que Buscamos</h1>
+                <h1 class="f-30">Qué Buscamos</h1>
                 <hr class="divider-morado">
                 <p class="text-justify b-5 c-blanco p-25 m-t-20 bg-azul">
                     - Compartir conocimientos y experiencias profesionales.<br>
-                    - Generar redes de contacto. <br>
+                    - Generar redes de contacto.<br>
                     - Generar un impacto positivo en la región.
                 </p>
             </div>
@@ -113,25 +125,25 @@ order: 1
 
         <div class="row">
             <div class="col-md-6">
-                <h1 class="f-30">Como lo hacemos</h1>
+                <h1 class="f-30">Cómo lo hacemos</h1>
                 <hr class="divider-morado">
                 <p class="text-justify b-5 c-blanco p-25 m-t-20 bg-azul">
                     - Organizando meetups, workshops mensuales<br>
                     - Cursos abiertos en Universidades<br>
-                    - Haciendo comunidad en las RRSS,Slack,Blog,Github <br>
+                    - Haciendo comunidad en las RRSS, Slack, Blog, GitHub<br>
                     - Apoyando las actividades de otras comunidades
                 </p>
             </div>
             <div class="col-md-6">
-                <h1 class="f-30">Como Aportar</h1>
+                <h1 class="f-30">Cómo Aportar</h1>
                 <hr class="divider-morado">
                 <p class="text-justify b-5 c-blanco p-25 m-t-20 bg-azul">
-                    - Participando de las activides<br>
+                    - Participando de las actividades<br>
                     - Compartiendo lo que sabes<br>
-                    - Apoyando nuevas actividades <br>
-                    - Invitando a mas personas a participar
+                    - Apoyando nuevas actividades<br>
+                    - Invitando a más personas a participar
                 </p>
-            </div>                
+            </div>
         </div>
 
         <div class="row">
@@ -142,21 +154,21 @@ order: 1
         </div>
 
         <div class="row partners m-b-40">
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="col-md-4 col-sm-4 col-12 text-center">
                 <a href="http://noders.com">
-                    <img src="/assets/img/partners/logo_noders_black.png" alt="">
-                    <span>La comunidad de NodeJS y JS en Lationamérica</span>
+                    <img src="{{ '/assets/img/partners/logo_noders_black.png' | relative_url }}" alt="Noders">
+                    <span>La comunidad de NodeJS y JS en Latinoamérica</span>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="col-md-4 col-sm-4 col-12 text-center">
                 <a href="http://labrujulacowork.cl">
-                    <img src="/assets/img/partners/logo_labrujula.png" alt="">
+                    <img src="{{ '/assets/img/partners/logo_labrujula.png' | relative_url }}" alt="La Brújula Cowork">
                     <span>Cowork regional para emprendedores</span>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="col-md-4 col-sm-4 col-12 text-center">
                 <a href="http://programadores.cl">
-                    <img src="http://www.programadores.cl/images/proin-logo-min.png" alt="">
+                    <img src="{{ '/assets/img/partners/logo_proin.png' | relative_url }}" alt="Comunidad de ProinChile">
                     <span>Comunidad de ProinChile</span>
                 </a>
             </div>
@@ -164,41 +176,43 @@ order: 1
 
         <div class="row">
             <div class="col-md-12">
-                <h1 class="f-30">Siguenos en</h1>
+                <h1 class="f-30">Síguenos en</h1>
                 <hr class="divider-morado">
             </div>
         </div>
+
         <div class="row rrss m-b-40">
-            <div class="col-md-2 col-xs-6 text-center">
-                <a href="https://fb.com/ivdevs">
-                <i class="fa fa-facebook fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://fb.com/ivdevs" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook fa-5x"></i>
                 </a>
             </div>
-             <div class="col-md-2 col-xs-6 text-center">
-                <a href="https://fb.com/groups/programadores.iv.region.chile/">
-                <i class="fa fa-users fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://fb.com/groups/programadores.iv.region.chile/" aria-label="Grupo de Facebook">
+                    <i class="fa-solid fa-users fa-5x"></i>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
-                <a href="http://joinslack.ivdevs.com/">
-                <i class="fa fa-slack fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://ivdevs.slack.com/" aria-label="Slack">
+                    <i class="fa-brands fa-slack fa-5x"></i>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
-                <a href="https://twitter.com/iv_devs">
-                <i class="fa fa-twitter fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://twitter.com/iv_devs" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter fa-5x"></i>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
-                <a href="https://github.com/iv-devs">
-                <i class="fa fa-github fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://github.com/iv-devs" aria-label="GitHub">
+                    <i class="fa-brands fa-github fa-5x"></i>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
-                <a href="https://www.meetup.com/IV-DEVS">
-                <i class="fa fa-meetup fa-5x"></i>
+            <div class="col-md-2 col-6 text-center">
+                <a href="https://www.meetup.com/IV-DEVS" aria-label="Meetup">
+                    <i class="fa-brands fa-meetup fa-5x"></i>
                 </a>
             </div>
         </div>
+
     </div>
 </section>
