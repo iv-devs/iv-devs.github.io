@@ -15,7 +15,7 @@ Entrevista informal a Eduardo Díaz Cortés autor del blog "La Naturaleza del So
 Seguimos con esta ronda de *”Entrevistas informales”* a personas líderes de la industria. En esta ocasión, tenemos el agrado de contar con la presencia de un profesional de lujo. Primero, por el hecho de ser un fiel defensor del trabajo que se realiza en las comunidades, lo cual nos enorgullece mucho y segundo porque es de la casa **Made in Chile**.
 
 
-![Eduardo Diáz Amazon Profile](/assets/img/post/2017-05-01-entrevista-eduardo-diaz-cortes.jpg)
+![Eduardo Diáz Amazon Profile]({{ '/assets/img/post/2017-05-01-entrevista-eduardo-diaz-cortes.jpg' | relative_url }})
 
 
 *"Eduardo Díaz Cortés Ingeniero Civil en Computación, durante más de 10 años no solo ha participado sino liderado diversos proyectos de tecnologías de la información, desde la automatización de procesos mineros, hasta el comercio electrónico. Su mayor interés es la generación de capacidades locales de desarrollo de tecnología, aportando con su experiencia en el área."*
